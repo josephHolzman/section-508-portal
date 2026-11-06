@@ -1,0 +1,42 @@
+// Project tokens, built only from USWDS system tokens.
+//
+// Spacing: USWDS spacing units (8px base, units(1) = 0.5rem). The named
+// stacks follow VA.gov's semantic spacing tokens
+// (design.va.gov/foundation/spacing-units), which are themselves USWDS units:
+//   stack-s   units(2) 1rem    between items in a group (list items, hint to field)
+//   stack-m   units(3) 1.5rem  between blocks in a section
+//   stack-l   units(4) 2rem    between form fields and page-level blocks (VA's form stack)
+//   section   units(6) 3rem    before a new section (h2), as va.gov sets its h2s
+//   inset-s/m/l               padding inside an item: 1 / 1.5 / 2rem
+//
+// Colors: USWDS system color tokens by name; contrast noted where text sits.
+
+@use "uswds-core" as *;
+
+$stack-s: units(2);
+$stack-m: units(3);
+$stack-l: units(4);
+$section: units(6);
+$inset-s: units(2);
+$inset-m: units(3);
+$inset-l: units(4);
+
+// Neutrals
+$ink: color("gray-cool-90"); // 16.87:1 on white
+$muted: color("gray-cool-60"); // 6.74:1 on white: hints, secondary text
+$rule: color("gray-cool-10"); // decoration only
+$band: color("gray-cool-3"); // panel fill; ink 15.59:1
+$error: color("red-60v"); // 6.98:1 on white
+
+// Primary family
+$primary: color("indigo-cool-60");
+$primary-lightest: color("indigo-cool-5");
+
+// Header and footer fill
+$chrome: color("indigo-cool-80"); // white 13.56:1
+$chrome-deep: color("indigo-cool-90"); // white 17.95:1
+$chrome-text: color("indigo-cool-10"); // 10.91:1 on chrome, 14.44:1 on chrome-deep
+$chrome-focus: color("blue-30v"); // 6.06:1 on chrome; the theme's blue-60v is 2.02:1 there
+
+// Focus ring on light surfaces (theme setting $theme-focus-color)
+$focus: color("blue-60v");

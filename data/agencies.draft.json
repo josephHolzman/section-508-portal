@@ -1,0 +1,314 @@
+{
+  "$schema-note": "Draft. Not verified by a human. Every non-null field must be confirmed by J. Holzman before publishing.",
+  "license": "CC0-1.0",
+  "generated": "2026-10-03",
+  "agencies": [
+    {
+      "id": "ssa",
+      "name": "Social Security Administration",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "ssa.gov"
+      ],
+      "statementUrl": "https://www.ssa.gov/accessibility/",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "Section508@ssa.gov",
+          "url": null,
+          "instructionsQuote": "Email us your accessibility feedback, questions, or concerns. Please include the web address and a description of the problems you have encountered. If you would like to file a Section 508 related complaint, refer to the Notice of Rights section below for instructions.",
+          "source": "https://www.ssa.gov/accessibility/"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "Social Security Administration, Attn: Civil Rights Complaints, 6401 Security Boulevard, Baltimore, Maryland 21235",
+          "url": "https://www.ssa.gov/online/ssa-437.pdf",
+          "instructionsQuote": "To file a complaint of discrimination, you or someone helping or representing you, should complete a signed and dated copy of this form (or a letter stating the same information required by this form). If your complaint of discrimination is incomplete or unsigned, we will send it back to you for correction which will delay our consideration of your complaint. Save a copy of your completed complaint of discrimination. Mail the original to:",
+          "source": "https://www.ssa.gov/online/ssa-437.pdf"
+        },
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "civil.rights.program.complaint.intake@ssa.gov",
+          "url": "https://www.ssa.gov/online/ssa-437.pdf",
+          "instructionsQuote": "You may choose to email your complaint of discrimination as an attachment to civil.rights.program.complaint.intake@ssa.gov.",
+          "source": "https://www.ssa.gov/online/ssa-437.pdf"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-45/section-85.61",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. OCR may extend this time for good cause.",
+      "phone": {
+        "number": "1-800-772-1213",
+        "label": "National 800 Number (TTY 1-800-325-0778); 8:00 a.m. - 7:00 p.m. local time, Monday through Friday",
+        "source": "https://www.ssa.gov/agency/contact/phone.html"
+      },
+      "pm": {
+        "name": "Pierce Crowell",
+        "email": "pierce.crowell@ssa.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.ssa.gov/accessibility/",
+        "https://www.ssa.gov/online/ssa-437.pdf",
+        "https://www.ssa.gov/agency/contact/phone.html",
+        "https://www.ssa.gov/agency/contact/",
+        "https://www.ecfr.gov/current/title-45/section-85.61",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: SSA's accessibility page has two paths: Section508@ssa.gov for feedback, and a 'Notice of Rights' section that points 508 complaints to form SSA-437 (the Spanish version is at https://www.ssa.gov/online/ssa-437-bk-sp.pdf; I did not open it). Notice of Rights quote: 'If you believe that the information and communications technology used by the Social Security Administration does not comply with the Section 508 law, you may file a complaint or have a representative file a complaint on your behalf.' SSA-437 is a general program-discrimination form (header: 'Form SSA-437-BK (09-2026)'), not a 508-specific one. FILING WINDOW, NEEDS HUMAN REVIEW: the SSA-437 form itself says 'You must file a complaint of discrimination within 180 days of the action you allege was based on discrimination.' The regulation SSA's own page links is 'Section 504 Regulation 45 C.F.R. Part 85', which is HHS's rule. 45 CFR 85.3 defines 'Agency' as the Department of Health and Human Services or its components, and 45 CFR 85.61(d) sets 180 days. Searching eCFR turned up no SSA-specific Section 504 'federally conducted' part in Title 20, so the user's guess of 20 CFR part 365 is unconfirmed. filingWindowSource is the regulation SSA itself cites; a human should decide whether to cite it or the SSA-437 form. OTHER CONTACTS SEEN, NOT USED AS CHANNELS: Section 504 Compliance staff at section.504.public.inquiry@ssa.gov and toll-free 1-844-881-9061 (M-F 8:00 a.m. to 4:00 p.m. ET), for 504 help rather than 508 complaints. Civil-rights complaint questions line on SSA-437: (866) 574-0374. PM: the SSA accessibility page also names 'Section 508 Program Manager: Pierce Crowell (Pierce.Crowell@ssa.gov)', which matches GSA except for capitalization. GSA also lists a deputy, Amanda Miller, amanda.miller@ssa.gov. FETCHING: ssa.gov HTML pages return HTTP 403 to plain curl, so I read them through a scraping service (markdown). The SSA-437 PDF downloaded directly. The accessibility page shows 'Updated: 10/03/2026'. eCFR text came from the eCFR versioner API (as of 2026-10-01) because ecfr.gov HTML redirects bots to an unblock page."
+    },
+    {
+      "id": "va",
+      "name": "Department of Veterans Affairs",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "va.gov"
+      ],
+      "statementUrl": "https://www.va.gov/accessibility-at-va/",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "Section508@VA.gov",
+          "url": null,
+          "instructionsQuote": "Send us an email at Section508@VA.gov. The subject line should say Section 508 support request.",
+          "source": "https://www.va.gov/accessibility-at-va/"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "Department of Veterans Affairs (VA), Office of Resolution Management (ORM), External Complaints Program (ECP), 810 Vermont Ave, NW Suite 275, Washington, DC 20420",
+          "url": "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/",
+          "instructionsQuote": "To file a complaint, send us a signed letter with details about your complaint.",
+          "source": "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-38/section-15.170",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. The agency may extend this time period for good cause.",
+      "phone": {
+        "number": "800-698-2411",
+        "label": "MyVA411 main information line (24/7; TTY 711)",
+        "source": "https://www.va.gov/contact-us/"
+      },
+      "pm": {
+        "name": "Chet Frith",
+        "email": "chet.frith@va.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.va.gov/accessibility-at-va/",
+        "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/",
+        "https://www.va.gov/contact-us/",
+        "https://digital.va.gov/section-508/",
+        "https://www.ecfr.gov/current/title-38/section-15.170",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: VA's accessibility page sends 508 issues to Section508@VA.gov and does not describe a separate formal 508 complaint process. For disability discrimination (Section 504), the same page links the ORM External Complaints Program page. That page does not mention Section 508 or ICT, so the mail channel is a Section 504 / general discrimination channel. Its wording is 'You should file within 180 days of when you think the discrimination happened.' ECP help line: 888-566-3982, option 4. PHONE ALTERNATIVE: for the 'call and ask for another way to finish your task' advice, the accessibility page gives a more specific number: 'If you can’t get the information you need, or can’t complete an action you need to take, because of the issue, call us at 866-279-3677 (TTY: 711). We’re here 24/7.' On the contact page, 866-279-3677 is the VA.gov technical support line. A human should choose between it and MyVA411. 866-279-3677 sits in a <va-telephone> web component and only appears in the raw HTML. ADDRESS CONFLICT: 38 CFR 15.170(c) gives 'Department of Veterans Affairs, 810 Vermont Avenue NW., Washington, DC 20420' and names the Secretary or the Deputy Assistant Secretary for Resolution Management as recipients. The current web page adds 'Suite 275' and the ORM/ECP attention lines. I used the web page. PM: VA's accessibility page says 'Our Section 508 program manager is Chet Frith' and routes questions to Section508@VA.gov (subject 'Section 508 program manager'). It does not show his personal email. The PM email comes from GSA's listing. digital.va.gov/section-508/ (Section 508 Office page, modified 2026-09-22) also lists section508@va.gov. Page dates: accessibility page 'Last updated: March 6, 2026'; civil rights page 'Last updated: September 30, 2025'. 38 CFR text came from the eCFR API (Title 38 latest issue 2026-08-27)."
+    },
+    {
+      "id": "irs",
+      "name": "Internal Revenue Service",
+      "routingLevel": "department",
+      "parent": "Department of the Treasury",
+      "domains": [
+        "irs.gov"
+      ],
+      "statementUrl": "https://www.irs.gov/accessibility",
+      "channels": [
+        {
+          "type": "webform",
+          "purpose": "feedback",
+          "address": null,
+          "url": "https://www.irs.gov/accessibility#form",
+          "instructionsQuote": "Complete the following form to tell us about an accessibility issue. Don’t include any personal information. Fields marked with an asterisk (*) are required.",
+          "source": "https://www.irs.gov/accessibility"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "U.S. Department of the Treasury, Office of Civil Rights and Diversity, 1500 Pennsylvania Avenue, NW, Washington, DC 20220",
+          "url": null,
+          "instructionsQuote": "An individual with a disability who wishes to file a complaint of noncompliance with Section 508 of the Rehabilitation Act of 1973 must send a signed, written complaint within 180 days of the incident that gave rise to the complaint to:",
+          "source": "https://www.irs.gov/about-irs/accessibility-notice-of-rights"
+        },
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "508@irs.gov",
+          "url": null,
+          "instructionsQuote": "For questions about IRS's Section 508 program supporting ICT, email 508@irs.gov.",
+          "source": "https://www.irs.gov/about-irs/accessibility-notice-of-rights"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-31/section-17.170",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. The agency may extend this time period for good cause.",
+      "phone": {
+        "number": "800-829-1040",
+        "label": "Individuals, 7 a.m. to 7 p.m. local time (TTY/TDD 800-829-4059)",
+        "source": "https://www.irs.gov/help/let-us-help-you"
+      },
+      "pm": {
+        "name": "Jarrad J. Davenport",
+        "email": "jarrad.j.davenport@irs.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.irs.gov/accessibility",
+        "https://www.irs.gov/about-irs/accessibility-notice-of-rights",
+        "https://www.irs.gov/help/let-us-help-you",
+        "https://www.irs.gov/about-irs/protecting-taxpayer-civil-rights",
+        "https://home.treasury.gov/utility/accessibility/web-accessibility",
+        "https://home.treasury.gov/utility/accessibility/physical-accessibility",
+        "https://www.ecfr.gov/current/title-31/section-17.170",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: formal Section 508 complaints about IRS go to the Department of the Treasury, not IRS. That is why routingLevel is 'department' and parent is Treasury. IRS's own 'Accessibility - Notice of rights' page sends signed written complaints to Treasury's Office of Civil Rights and Diversity, and adds: 'If accepted for investigation, the appropriate bureau will investigate the complaint and attempt resolution. If no resolution is achieved, the bureau will forward the findings to the Department.' IRS runs its own channels for feedback only: the 'Report an accessibility issue' web form on irs.gov/accessibility (OMB 1545-2208; I did not submit it) and 508@irs.gov (program questions). The Notice of Rights page is not linked from irs.gov/accessibility; I found it by web search. ORAL COMPLAINTS (no 'phone' channel type exists): 'To file a complaint telephonically, complainants should call 202-622-1160 or use the Federal Relay Service number at 866-377-8642.' CONFLICT, Treasury office name and address: IRS page says 'Office of Civil Rights and Diversity'. Treasury's physical-accessibility page says 'Director, Office of Civil Rights and Equal Employment Opportunity, 1500 Pennsylvania Ave, N.W., Washington, DC 20220 or crcomplaints@treasury.gov'. 31 CFR 17.170(c) says 'Director, Office of Equal Opportunity Program, Department of the Treasury, 1500 Pennsylvania Avenue, NW., Washington, DC 20220'. Treasury's web-accessibility page (Last Reviewed March 20, 2024) has a 'File a Formal Section 508 Complaint' mailto to crcomplaints@treasury.gov, but its subject line is about treasury.gov. IRS pages never mention crcomplaints@treasury.gov, so I left it out of IRS channels. A human should decide whether to add it. PM: GSA lists two IRS contacts with no designation: 'Jarrad J. Davenport' (jarrad.j.davenport@irs.gov) and 'Pamela L. Shavers' (pamela.l.shavers@irs.gov). The pm field holds the first. Treasury agencywide PM on GSA: Nicolaos 'Nick' Totten, nicolaos.totten@treasury.gov. Treasury's web page shows 'Nick.Totten@treasury.gov' as Departmental Offices' PM, so the two pages differ on that address. OLD/IRRELEVANT: IRS Publication 4053 (Rev. 8-2012, for federally-assisted VITA/TCE/LITC sites) lists the IRS Civil Rights Division at 1111 Constitution Ave NW, Room 2413, and eeo.external.civil.rights@irs.gov. Not used, because it covers assisted programs and is 14 years old. I could not retrieve Pub 4053-C (federally-conducted): p4053c.pdf returned 404. Page dates: irs.gov/accessibility reviewed 25-Sep-2026; Notice of rights 28-Jun-2026. IRS help-line URL telephone-assistance redirects to /help/let-us-help-you."
+    },
+    {
+      "id": "hhs-cms",
+      "name": "Centers for Medicare & Medicaid Services (Department of Health and Human Services)",
+      "routingLevel": "department",
+      "parent": "Department of Health and Human Services",
+      "domains": [
+        "medicare.gov",
+        "healthcare.gov",
+        "cms.gov"
+      ],
+      "statementUrl": "https://www.cms.gov/about-cms/web-policies-important-links/accessibility-nondiscrimination-disabilities-notice",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "508Feedback@cms.hhs.gov",
+          "url": null,
+          "instructionsQuote": "If you encounter inaccessible content on this website, please contact the CMS Section 508 Team at 508Feedback@cms.hhs.gov, and if possible upload the material in question and/or include the URL.",
+          "source": "https://www.cms.gov/about-cms/web-policies-important-links/accessibility-nondiscrimination-disabilities-notice"
+        },
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "OCRComplaint@hhs.gov",
+          "url": null,
+          "instructionsQuote": "CMS employees and members of the public who wish to file a complaint pursuant to Section 508 of the Rehabilitation Act of 1973 in connection with information and communication technology (ICT) procured, maintained, developed, or used by CMS may do so by contacting the U.S. Department of Health and Human Services, Office for Civil Rights:",
+          "source": "https://www.cms.gov/about-cms/web-policies-important-links/accessibility-nondiscrimination-disabilities-notice"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "Office of Equal Employment Opportunity, U.S. Department of Health and Human Services, 200 Independence Avenue S.W., Room 308B, Washington, D.C. 20201",
+          "url": null,
+          "instructionsQuote": "CMS employees and members of the public who wish to file a complaint pursuant to Section 508 of the Rehabilitation Act of 1973 in connection with information and communication technology (ICT) procured, maintained, developed, or used by CMS may do so by contacting the U.S. Department of Health and Human Services, Office for Civil Rights:",
+          "source": "https://www.cms.gov/about-cms/web-policies-important-links/accessibility-nondiscrimination-disabilities-notice"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-45/section-85.61",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. OCR may extend this time for good cause.",
+      "phone": {
+        "number": "1-800-633-4227",
+        "label": "1-800-MEDICARE (TTY 1-877-486-2048)",
+        "source": "https://www.medicare.gov/about-us/accessibility-nondiscrimination-notice"
+      },
+      "pm": {
+        "name": "Aaron Allen",
+        "email": "aaron.allen@cms.hhs.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.cms.gov/about-cms/web-policies-important-links/accessibility-nondiscrimination-disabilities-notice",
+        "https://www.medicare.gov/about-us/accessibility-nondiscrimination-notice",
+        "https://www.healthcare.gov/accessibility/",
+        "https://www.hhs.gov/accessibility/index.html",
+        "https://www.hhs.gov/civil-rights/filing-a-complaint/complaint-process/index.html",
+        "https://www.ecfr.gov/current/title-45/section-85.61",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: CMS takes 508 feedback, but HHS takes formal 508 complaints. All three CMS sites (cms.gov, medicare.gov, healthcare.gov) send accessibility feedback to the CMS Section 508 Team at 508Feedback@cms.hhs.gov. CMS's notice has a '508 complaints' heading that sends formal complaints to the HHS Office for Civil Rights. So routingLevel is 'department', and the id is 'hhs-cms' because the entry covers CMS sites. INTERNAL CONFLICT on the CMS page: the '508 complaints' text says to contact the HHS 'Office for Civil Rights' with email OCRComplaint@hhs.gov (which is OCR's intake address per hhs.gov), but the mailing address it gives is 'Office of Equal Employment Opportunity ... Room 308B'. OCR's own complaint page uses 'Centralized Case Management Operations, U.S. Department of Health and Human Services, 200 Independence Avenue, S.W., Room 509F HHH Bldg., Washington, D.C. 20201'. A human should confirm which mailing address is right for 508 complaints. OCR ALSO OFFERS: the OCR Complaint Portal https://ocrportal.hhs.gov/ and phone 1-800-368-1019 (TTY 1-800-537-7697) for civil rights (Section 504) complaints. OCR's page says complaints must 'Be filed within 180 days of when you knew that the act or omission complained of occurred.' The CMS '508 complaints' section lists only email and mail, so I did not add the portal as a 508 channel. FILING WINDOW: 45 CFR 85.61(d), HHS federally conducted Section 504 rule. 85.3 defines 'agency' to include HHS components. Section 508 complaints use 504 procedures under 29 U.S.C. 794d(f)(2); I know that from background knowledge and did not verify it this session. PHONE: Marketplace / HealthCare.gov line is 1-800-318-2596 (TTY 1-855-889-4325), on the Medicare.gov and CMS pages and the HealthCare.gov footer. Alternate-format line: 1-844-ALT-FORM (1-844-258-3676), altformatrequest@cms.hhs.gov. PM: GSA lists Aaron Allen for CMS and Stacey Holden (Deputy) stacey.holden@cms.hhs.gov. HHS agencywide: Shannon Howard shannon.howard@hhs.gov and 'HHS Helpdesk' 508helpdesk@hhs.gov. The HHS accessibility page (hhs.gov/accessibility, 'Content last reviewed March 21, 2023') routes Department/OS feedback to 508helpdesk@hhs.gov. STALENESS: the HealthCare.gov accessibility page says 'Last Updated: 10/23/2013'. Its footer 'Accessibility' link goes to an old cms.gov URL that redirects to the current CMS notice. CMS notice 'Page Last Modified: 08/05/2026'. hhs.gov/web/section-508/accessibility/index.html is 404; hhs.gov/web/section-508/ redirects to hhs.gov/accessibility/. hhs.gov returns 403 to plain curl, so I read it through a scraping service."
+    },
+    {
+      "id": "state",
+      "name": "Department of State",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "state.gov",
+        "travel.state.gov"
+      ],
+      "statementUrl": "https://www.state.gov/section-508-accessibility-statement",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "section508@state.gov",
+          "url": null,
+          "instructionsQuote": "If you have comments and/or questions related to State’s Section 508 program or if you have concerns related to the Section 508 ICT accessibility of any content or the user interface on this website, please e-mail section508@state.gov or reach out to the Section 508 Program Manager, Melanie McIntyre Pote (McIntyrePoteMS@state.gov). Where applicable, please include the web address or URL and the specific accessibility barrier(s) you are encountering.",
+          "source": "https://www.state.gov/section-508-accessibility-statement"
+        },
+        {
+          "type": "webform",
+          "purpose": "complaint",
+          "address": null,
+          "url": "https://forms.office.com/pages/responsepage.aspx?id=dFDPZv5a0UimkaErISH0S8kNGhsLOoZGioO_r4NSlCxUOEJVMlAzWFE0ODBZNU1FODhIS0E4U1BVUiQlQCN0PWcu",
+          "instructionsQuote": "If you would like to file a Section 508-related complaint, please use the online U.S. Department of State Discrimination Complaint Form or send an e-mail to the Office of Civil Rights at SOCR_Direct@state.gov explaining which and in what way ICT is inaccessible and how you would like to see the complaint resolved.",
+          "source": "https://www.state.gov/section-508-accessibility-statement"
+        },
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "SOCR_Direct@state.gov",
+          "url": null,
+          "instructionsQuote": "If you would like to file a Section 508-related complaint, please use the online U.S. Department of State Discrimination Complaint Form or send an e-mail to the Office of Civil Rights at SOCR_Direct@state.gov explaining which and in what way ICT is inaccessible and how you would like to see the complaint resolved.",
+          "source": "https://www.state.gov/section-508-accessibility-statement"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-22/section-144.170",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. The agency may extend this time period for good cause.",
+      "phone": {
+        "number": "877-487-2778",
+        "label": "National Passport Information Center (TDD/TTY 888-874-7793); passports only",
+        "source": "https://travel.state.gov/en/passports/contact-support/us-passports.html"
+      },
+      "pm": {
+        "name": "Melanie McIntyre Pote",
+        "email": "mcintyrepotems@state.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.state.gov/section-508-accessibility-statement",
+        "https://travel.state.gov/en.html",
+        "https://travel.state.gov/en/passports/contact-support/us-passports.html",
+        "https://www.ecfr.gov/current/title-22/section-144.170",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: one department-wide statement covers both domains. The travel.state.gov footer link 'Accessibility Support' points to https://www.state.gov/section-508-accessibility-statement/. travel.state.gov has no separate accessibility statement that I could find. The statement lists two complaint channels: a 'U.S. Department of State Discrimination Complaint Form' and SOCR_Direct@state.gov (Office of Civil Rights). The form is hosted on forms.office.com (Microsoft Forms), linked from the official state.gov page; I did not open or submit it. MAIL: the statement gives no mailing address. 22 CFR 144.170(c) says 'Complaints may be sent to Deputy Assistant Secretary for Equal Employment Opportunity and Civil Rights, Department of State, 2201 C Street, NW., Room 3214, Washington, DC 20520.' That text is in the regulation only, not on a public page, and the office title may be outdated (the page names the 'Office of Civil Rights'). I left it out of channels. PHONE: the number is passport-specific (Mon-Fri 8:00 a.m. to 10:00 p.m. ET, Sat-Sun 10:00 a.m. to 3:00 p.m. ET). For travel emergencies, travel.state.gov lists 888-407-4747 (U.S./Canada) and +1 202-501-4444. I found no general state.gov public help line. Passport customer complaints have a separate Customer Feedback Form (https://travel.state.gov/en/passports/contact-support/share-feedback.html), which I did not open. PM: the State statement shows the PM email as 'McIntyrePoteMS@state.gov'; GSA shows 'mcintyrepotems@state.gov' (same address, different case). Statement 'Last updated on 8/5/2026'. Normalized a non-breaking space after 'e-mail' in the first quote. ODDITY: the travel.state.gov footer link labeled 'GSA.gov' has a malformed href pointing at GSA's accessibility statement. Not relevant to routing. travel.state.gov returns 403 to plain curl, so I read it through a scraping service."
+    }
+  ]
+}

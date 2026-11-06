@@ -1,0 +1,30 @@
+{
+  "name": "barrier-report",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Unofficial concept: turn an accessibility barrier on a federal website into a clear complaint and show where to send it.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "uswds:init": "gulp --gulpfile gulpfile.cjs init",
+    "uswds:css": "gulp --gulpfile gulpfile.cjs compile",
+    "uswds:watch": "gulp --gulpfile gulpfile.cjs watch",
+    "dev": "npm run uswds:css && (npm run uswds:watch & vite)",
+    "build": "npm run uswds:css && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@uswds/uswds": "3.14.0"
+  },
+  "devDependencies": {
+    "@fontsource/bitter": "^5.3.0",
+    "@uswds/compile": "^1.3.2",
+    "axe-core": "^4.13.0",
+    "jsdom": "^29.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2",
+    "vitest": "^4.1.11"
+  }
+}

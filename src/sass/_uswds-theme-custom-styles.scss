@@ -1,0 +1,9 @@
+// Barrier Report's own styles, compiled with USWDS so every value comes from
+// its tokens: units() for spacing, color() for system colors, at-media() for
+// breakpoints. Order matters: later partials build on earlier ones.
+
+@use "uswds-core" as *;
+@forward "custom/type";
+@forward "custom/layout";
+@forward "custom/components";
+@forward "custom/chrome";

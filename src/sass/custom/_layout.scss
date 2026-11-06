@@ -1,0 +1,113 @@
+// Page layout and vertical rhythm.
+//
+// Layout: the USWDS grid. Every page sits in one reading column,
+// grid-col-12, narrowing to desktop:grid-col-8 (40rem inside the 1024px
+// container), like VA.gov's form pages. Forms, the review list and the
+// complaint all take the column's width, so nothing needs its own max-width.
+//
+// Rhythm: element-level defaults wrapped in :where(), so they carry no
+// specificity and every USWDS component keeps its own spacing.
+
+@use "uswds-core" as *;
+@use "tokens" as t;
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: t.$ink;
+}
+
+.site-main {
+  flex: 1 0 auto;
+  width: 100%;
+  padding-top: units(4);
+  padding-bottom: units(8);
+
+  @include at-media("tablet") {
+    padding-top: units(6);
+  }
+}
+
+// main takes focus from the skip link; it isn't interactive, so no ring.
+.site-main:focus,
+h1[tabindex="-1"]:focus,
+h2[tabindex="-1"]:focus {
+  outline: none;
+}
+
+// Headings: the page's first block starts flush; a new section gets room above.
+:where(.site-page) {
+  h1 {
+    margin-top: 0;
+    margin-bottom: t.$stack-m;
+  }
+
+  h2 {
+    margin-top: t.$section;
+    margin-bottom: t.$stack-s;
+  }
+
+  h3 {
+    margin-top: t.$stack-l;
+    margin-bottom: units(1);
+  }
+
+  h4 {
+    margin-top: t.$stack-m;
+    margin-bottom: units(1);
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: t.$stack-s;
+  }
+
+  // Lead paragraph: va.gov leaves 2rem below its intro text.
+  .usa-intro {
+    margin-bottom: t.$stack-l;
+  }
+
+  > :first-child,
+  section > :first-child,
+  .page-section > :first-child,
+  .page-block > :first-child {
+    margin-top: 0;
+  }
+}
+
+// Page-level blocks (step indicator, alerts, summary boxes, cards) stack at stack-l.
+.page-block {
+  margin-top: 0;
+  margin-bottom: t.$stack-l;
+}
+
+// Forms: one column, fields stacked at VA's form spacing.
+.step-form.usa-form {
+  max-width: none;
+}
+
+.step-form > .usa-form-group,
+.step-form > .usa-checkbox {
+  margin-top: t.$stack-l;
+}
+
+.step-form .usa-textarea {
+  max-width: none;
+}
+
+// The form's actions follow its last field at the same stack.
+.form-actions {
+  margin-top: t.$stack-l;
+}
+
+// Leave breathing room above a field the error summary scrolls to.
+.step-form .usa-form-group,
+.step-form .usa-fieldset {
+  scroll-margin-top: t.$stack-s;
+}
+
+// A new section inside a page (Send's "How to send it", "Prefer to call?").
+.page-section {
+  margin-top: t.$section;
+}

@@ -1,0 +1,190 @@
+// Typography: VA.gov's primitives.
+//
+// Token names and values copy the VA Design System's primitive typography
+// tokens (design.va.gov/foundation/typography). How they're applied follows
+// va.gov's computed styles, measured 2026-10-03:
+//   h1  Bitter 700, 2.5rem/1.3   (1.875rem below mobile-lg)
+//   h2  Bitter 700, 2rem/1.3     (1.5rem below mobile-lg)
+//   h3  Bitter 700, 1.25rem/1.3
+//   h4  Bitter 700, 1.063rem/1.3
+//   lead  Bitter 400, 1.25rem/1.7 (1rem below mobile-lg)
+//   body, labels, legends, hints, inputs  Source Sans Pro 400, 1.06rem
+//   errors and labels in error  700
+// VA switches heading sizes at 481px; this uses USWDS's mobile-lg (480px).
+// Sizes are rem so they follow the reader's browser font size (WCAG 1.4.4).
+
+@use "uswds-core" as *;
+@use "tokens" as t;
+
+:root {
+  --vads-font-family-heading: Bitter, Georgia, Cambria, "Times New Roman", Times, serif;
+  --vads-font-family-serif: Bitter, Georgia, Cambria, "Times New Roman", Times, serif;
+  --vads-font-family-sans: "Source Sans Pro Web", "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  --vads-font-family-mono: "Roboto Mono Web", "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+
+  --vads-font-size-3xs: 0.75rem;
+  --vads-font-size-2xs: 0.8125rem;
+  --vads-font-size-xs: 0.875rem;
+  --vads-font-size-sm: 0.938rem;
+  --vads-font-size-root: 1rem;
+  --vads-font-size-md: 1.063rem;
+  --vads-font-size-lg: 1.25rem;
+  --vads-font-size-xl: 2rem;
+  --vads-font-size-2xl: 2.5rem;
+  --vads-font-size-3xl: 3rem;
+  --vads-font-size-body-default: 1.06rem;
+
+  --vads-font-line-height-1: 1;
+  --vads-font-line-height-2: 1.15;
+  --vads-font-line-height-3: 1.35;
+  --vads-font-line-height-4: 1.5;
+  --vads-font-line-height-5: 1.62;
+  --vads-font-line-height-6: 1.75;
+
+  --vads-font-weight-normal: 400;
+  --vads-font-weight-medium: 500;
+  --vads-font-weight-semibold: 600;
+  --vads-font-weight-bold: 700;
+
+  --vads-font-letter-spacing-tighter: -0.02em;
+  --vads-font-letter-spacing-tight: -0.01em;
+  --vads-font-letter-spacing-loose: 0.01em;
+  --vads-font-letter-spacing-looser: 0.02em;
+
+  // Applied values, as va.gov uses them (heading 1.3 and lead 1.7 aren't primitives).
+  --heading-line-height: 1.3;
+  --lead-line-height: 1.7;
+  --h1-size: 1.875rem;
+  --h2-size: 1.5rem;
+  --lead-size: var(--vads-font-size-root);
+
+  @include at-media("mobile-lg") {
+    --h1-size: var(--vads-font-size-2xl);
+    --h2-size: var(--vads-font-size-xl);
+    --lead-size: var(--vads-font-size-lg);
+  }
+}
+
+body {
+  font-family: var(--vads-font-family-sans);
+  font-size: var(--vads-font-size-body-default);
+  line-height: var(--vads-font-line-height-4);
+  font-weight: var(--vads-font-weight-normal);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--vads-font-family-heading);
+  font-weight: var(--vads-font-weight-bold);
+  line-height: var(--heading-line-height);
+}
+
+h1,
+.usa-step-indicator__heading-text {
+  font-size: var(--h1-size);
+}
+
+// The step name is the h1's text; the counter beside it stays in the UI face.
+.usa-step-indicator__heading-text {
+  font-family: var(--vads-font-family-heading);
+  font-weight: var(--vads-font-weight-bold);
+  line-height: var(--heading-line-height);
+}
+
+h2 {
+  font-size: var(--h2-size);
+}
+
+h3 {
+  font-size: var(--vads-font-size-lg);
+}
+
+h4 {
+  font-size: var(--vads-font-size-md);
+}
+
+h5,
+h6 {
+  font-size: var(--vads-font-size-sm);
+}
+
+// USWDS component headings use the heading face too (va.gov process list headings: Bitter 1.25rem).
+.usa-alert .usa-alert__heading,
+.usa-summary-box__heading,
+.usa-process-list__heading {
+  font-family: var(--vads-font-family-heading);
+  font-size: var(--vads-font-size-lg);
+  font-weight: var(--vads-font-weight-bold);
+  line-height: var(--heading-line-height);
+}
+
+// Running text: 1.5, including lists (USWDS sets lists tighter).
+p,
+.usa-list,
+.usa-list li {
+  line-height: var(--vads-font-line-height-4);
+}
+
+// Lead paragraph (VA's .va-introtext).
+.usa-intro {
+  font-family: var(--vads-font-family-serif);
+  font-size: var(--lead-size);
+  font-weight: var(--vads-font-weight-normal);
+  line-height: var(--lead-line-height);
+}
+
+// Form text: Source Sans Pro at body size, normal weight; bold in error.
+.usa-label,
+.usa-legend,
+.usa-hint,
+.usa-input,
+.usa-select,
+.usa-textarea,
+.usa-checkbox__label,
+.usa-radio__label,
+.usa-error-message,
+.usa-button {
+  font-family: var(--vads-font-family-sans);
+  font-size: var(--vads-font-size-body-default);
+}
+
+.usa-label,
+.usa-legend {
+  font-weight: var(--vads-font-weight-normal);
+  line-height: var(--heading-line-height);
+}
+
+// A question that leads its section, like VA's header-level legends.
+.usa-legend--large {
+  font-family: var(--vads-font-family-heading);
+  font-size: var(--vads-font-size-lg);
+  font-weight: var(--vads-font-weight-bold);
+}
+
+.usa-label--error,
+.usa-form-group--error > .usa-fieldset > .usa-legend,
+.usa-error-message,
+.usa-button {
+  font-weight: var(--vads-font-weight-bold);
+}
+
+// va.gov buttons: 1.06rem bold at line height 1.2 (USWDS default is 0.9).
+.usa-button {
+  line-height: 1.2;
+}
+
+// Hints use gray-cool-60 (6.74:1), not USWDS's base gray (4.66:1).
+.usa-hint {
+  color: t.$muted;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: var(--vads-font-family-mono);
+}

@@ -1,0 +1,318 @@
+{
+  "$schema-note": "Draft. Not verified by a human. Every non-null field must be confirmed by J. Holzman before publishing. Part B. Adds channel 'purpose' ('complaint' | 'feedback').",
+  "license": "CC0-1.0",
+  "generated": "2026-10-03",
+  "agencies": [
+    {
+      "id": "doj",
+      "name": "Department of Justice",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "justice.gov"
+      ],
+      "statementUrl": "https://www.justice.gov/accessibility/accessibility-statement",
+      "channels": [
+        {
+          "type": "webform",
+          "purpose": "feedback",
+          "address": null,
+          "url": "https://www.justice.gov/doj/webform/your-message-department-justice-webmaster",
+          "instructionsQuote": "If you have a disability and the format of any material on our websites interferes with your ability to access the information, please contact the Department's webmaster. The webmaster will refer your request to the appropriate Department component, and the component will respond to your request. Where applicable, please include the web address or url and the specific problem you encountered.",
+          "source": "https://www.justice.gov/accessibility/accessibility-statement"
+        },
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "EEOBOXJMD@usdoj.gov",
+          "url": null,
+          "instructionsQuote": "If you would like to file a Section 508 complaint alleging that the Department’s ICT is not accessible, please submit your complaint via one the following methods:",
+          "source": "https://www.justice.gov/accessibility/accessibility-statement"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "Justice Management Division, RMS Staff, 145 N Street, NE Suite 1W.801, Washington, DC 20530",
+          "url": null,
+          "instructionsQuote": "If you would like to file a Section 508 complaint alleging that the Department’s ICT is not accessible, please submit your complaint via one the following methods:",
+          "source": "https://www.justice.gov/accessibility/accessibility-statement"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-28/section-39.170",
+      "filingWindowQuote": "Complaints shall be filed within 180 days of the alleged act of discrimination, except that complaints by inmates of Federal penal institutions shall be filed within 180 days of the final administrative decision of the Bureau of Prisons under 28 CFR part 542. The Official may extend this time limit for good cause shown.",
+      "phone": {
+        "number": "202-514-2000",
+        "label": "Department of Justice Main Switchboard (TTY: 711)",
+        "source": "https://www.justice.gov/contact-us"
+      },
+      "pm": {
+        "name": "Dwayne Spriggs",
+        "email": "Section508ProgramManager@usdoj.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.justice.gov/accessibility/accessibility-statement",
+        "https://www.justice.gov/doj/webform/your-message-department-justice-webmaster",
+        "https://www.justice.gov/contact-us",
+        "https://www.ecfr.gov/current/title-28/section-39.170",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: department-level, and the cleanest of this batch. DOJ's accessibility statement (footer link 'Accessibility'; 'Updated July 1, 2026') has a heading 'Filing a Complaint Alleging a Violation of Section 508' that lists three methods: email EEOBOXJMD@usdoj.gov, fax 202-616-4823, and mail to the Justice Management Division, RMS Staff. There is no 'fax' channel type, so the fax number is in notes only. The page's own deadline matches the regulation: 'Section 508 complaints must be submitted within 180 days of the access issue.' It asks complainants to include name, mailing address, phone, email, the specific ICT, its URL, and the technology used. Feedback goes to the webmaster web form, which has topic choices (broken link, get help, comments) but no accessibility topic; I did not submit it. The quote has the typo 'via one the following methods' in the source; I kept it. URL NOTE: https://www.justice.gov/accessibility returns 404; https://www.justice.gov/accessibility/accessibility-information redirects to the statement URL used here. ADDRESS CONFLICT: 28 CFR 39.170(d)(4) says 'Complaints should be sent to the Director for Equal Employment Opportunity, U.S. Department of Justice, 10th and Pennsylvania Avenue, NW., Room 1232, Washington, DC 20530.' The web page's JMD/RMS Staff address at 145 N Street NE is newer; I used the web page. FILING WINDOW: 28 CFR part 39 (Agency means the Department of Justice, §39.103) confirmed on eCFR; window is §39.170(d)(3). Inmates of federal prisons have a different start date (180 days from the final Bureau of Prisons administrative decision, after exhausting 28 CFR part 542). PHONE: contact page also lists 'Department Comment Line: 202-353-1555'. I used the Main Switchboard because it is also the 'Phone' in the site footer; a human may prefer the comment line. PM: the statement says 'DOJ’s Section 508 Program Manager is Dwayne Spriggs' with the shared mailbox Section508ProgramManager@usdoj.gov, matching GSA's 'Agencywide' DOJ listing exactly. GSA also lists many component-level DOJ contacts (e.g. ATF, OJP, USMS). DOMAINS: only justice.gov. Other DOJ sites (e.g. ada.gov, component sites) were not checked. Normalized '&nbsp;' and doubled spaces in the feedback quote to single spaces. About 1.5 minutes."
+    },
+    {
+      "id": "gsa",
+      "name": "General Services Administration",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "gsa.gov",
+        "login.gov",
+        "usa.gov"
+      ],
+      "statementUrl": "https://www.gsa.gov/website-information/accessibility-statement",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "cio508help@gsa.gov",
+          "url": null,
+          "instructionsQuote": "If you experience difficulty accessing any resources or content on this site, please contact us via email and include:",
+          "source": "https://www.gsa.gov/website-information/accessibility-statement"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "GSA Office of Civil Rights (OCR), 1800 F Street, NW, Room 2340, Washington, DC 20405",
+          "url": null,
+          "instructionsQuote": "You can file an administrative complaint with the GSA Office of Civil Rights requesting that existing information and communication technology be reviewed and brought into compliance with the provisions of Section 508. File complaints with OCR within 180 days of the alleged act of discrimination.",
+          "source": "https://www.gsa.gov/website-information/accessibility-statement"
+        },
+        {
+          "type": "webform",
+          "purpose": "feedback",
+          "address": null,
+          "url": "https://www.usa.gov/site-issue-report-form",
+          "instructionsQuote": "If you have a problem using our site, you can report the issue to us online, or by calling us at 1-844-872-4681.",
+          "source": "https://www.usa.gov/accessibility-policy"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-41/section-105-8.170-4",
+      "filingWindowQuote": "Complaints shall be filed within 180 days of the alleged act of discrimination. The Official may extend this time limit for good cause shown.",
+      "phone": {
+        "number": "1-844-872-4681",
+        "label": "USAGov Contact Center, 1-844-USA-GOV1; Monday - Friday, 8:00 AM - 8:00 PM Eastern Time",
+        "source": "https://www.usa.gov/phone"
+      },
+      "pm": {
+        "name": "Mohammad Islam",
+        "email": "mohammad.islam@gsa.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.gsa.gov/website-information/accessibility-statement",
+        "https://www.gsa.gov/reference/civil-rights-programs",
+        "https://www.gsa.gov/about-gsa/contact-us",
+        "https://login.gov/accessibility/",
+        "https://login.gov/contact/",
+        "https://www.usa.gov/accessibility-policy",
+        "https://www.usa.gov/site-issue-report-form",
+        "https://www.usa.gov/phone",
+        "https://www.ecfr.gov/current/title-41/section-105-8.170-4",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: department-level. Formal complaints about Login.gov and USA.gov go to the GSA Office of Civil Rights. Login.gov's accessibility page has no channels of its own; it says 'For additional detail, please see the U.S. General Services Administration Accessibility Statement', and its footer 'Accessibility support' link goes to the GSA statement. USA.gov's accessibility policy says 'Read the accessibility statement from USA.gov's parent agency, the General Services Administration' and runs its own feedback path (site issue form or phone). The GSA statement ('Last updated: Aug 14, 2025') has 'Available complaint processes': cio508help@gsa.gov for help, and 'File an official complaint' with OCR. ORAL COMPLAINTS (no phone channel type): 'Contact OCR with complaints at 202-501-0767 or 800-777-8339 via Federal Relay.' NUMBER CONFLICT: the statement's Federal Relay number is 800-777-8339 (link tel:+18007778339), but GSA's civil-rights page gives Federal Relay as 1-800-877-8339, which is the number used elsewhere (e.g. Census). The statement's number may be a typo; a human should check. The civil-rights page also shows 'Speech-to-Speech Relay Service: 1-800-898-0740' with a link to tel:+18008778339 (text and link disagree). ADDRESS CONFLICTS: statement: OCR, 1800 F Street NW, Room 2340. GSA civil-rights page (EEO/employment contact, 'Last updated: Sep 21, 2026'): Office of Civil Rights (OCR), 1800 F Street, NW, Room G224, with eeo@gsa.gov and 202-501-4571. That page also says OCR investigates Section 508 program complaints but gives no separate 508 contact. 41 CFR 105-8.170-4(d): 'Director of Civil Rights, Civil Rights Division (AKC), General Services Administration, 18th and F Streets, NW., Washington, DC 20405.' I used the accessibility statement's Room 2340 and did not add eeo@gsa.gov as a 508 channel because the page frames it as an employment contact. USA.GOV FORM: 'This form is ONLY for reporting an issue or update on a page with USA.gov in its web address.' It uses reCAPTCHA; I did not submit it. Its 'LAST UPDATED' is April 14, 2025; the USA.gov accessibility policy's is July 8, 2024. LOGIN.GOV: no accessibility-specific feedback channel. Its contact page has a general help-ticket form and 'You can call our support center anytime at (844) 875-6446' (24/7), and says 'Login.gov can only resolve issues related to signing-in.' Not added as channels because they are not accessibility channels. PHONE: I used the USAGov Contact Center because it serves the public. Alternatives: GSA National Customer Service Center 1-800-488-3111 (Sunday 9 p.m.-Friday 9:30 p.m. ET; aimed at agency customers and vendors), and Login.gov support (844) 875-6446 for sign-in problems. A human should decide whether login.gov should get its own phone. FILING WINDOW: 41 CFR part 105-8 (Agency means GSA, §105-8.103); the GSA statement links §105-8.170-4 directly. PM: statement names Mohammad Islam (mailto mohammad.islam@gsa.gov), matching GSA's listing. DOMAINS: gsa.gov, login.gov and usa.gov are all listed under GSA in CISA's .gov registry data (login.gov and usa.gov under Federal Acquisition Service). Other GSA sites (sam.gov, section508.gov, etc.) were not checked. The address cio508help@gsa.gov appears only as the mailto target of the link text 'contact us via email'. About 2 minutes."
+    },
+    {
+      "id": "opm",
+      "name": "Office of Personnel Management",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "opm.gov",
+        "usajobs.gov"
+      ],
+      "statementUrl": "https://www.opm.gov/information-management/accessibility/",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "section508@opm.gov",
+          "url": null,
+          "instructionsQuote": "To file a complaint against OPM under Section 508, please email section508@opm.gov.",
+          "source": "https://www.opm.gov/information-management/accessibility/"
+        },
+        {
+          "type": "webform",
+          "purpose": "complaint",
+          "address": null,
+          "url": "https://usajobshelp.opm.gov/hc/en-us/articles/53058879540243-What-is-Section-508-at-USAJOBS",
+          "instructionsQuote": "If you are not an OPM employee and your complaint is about Section 508 at OPM, please fill out the contact form at the bottom of the page.",
+          "source": "https://usajobshelp.opm.gov/hc/en-us/articles/53058879540243-What-is-Section-508-at-USAJOBS"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-5/section-723.170",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. The agency may extend this time period for good cause.",
+      "phone": {
+        "number": "202-606-1800",
+        "label": "General Contact Information for OPM (hearing impaired users may dial 711 for TTY relay)",
+        "source": "https://www.opm.gov/about-us/contact-us/"
+      },
+      "pm": null,
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.opm.gov/information-management/accessibility/",
+        "https://www.opm.gov/about-us/contact-us/",
+        "https://www.opm.gov/information-management/accessibility/OPMSection508Policy2021.pdf",
+        "https://www.usajobs.gov/",
+        "https://usajobshelp.opm.gov/hc/en-us/articles/53058879540243-What-is-Section-508-at-USAJOBS",
+        "https://www.ecfr.gov/current/title-5/section-723.170",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: department-level (OPM is an independent agency; no parent). OPM's 'Accessibility (Section 508)' page ('Date last modified: 7/31/2026') has 'How to Submit a Section 508 Complaint': 'If you are not an OPM employee and your complaint is about Section 508 at OPM, please email section508@opm.gov.' Its 'Accessibility Notice of Rights' repeats this. OPM employees go to an EEO Counselor within 45 days instead. OPM names no separate feedback channel, so the same inbox serves both. USAJOBS: usajobs.gov/accessibility is 404. The USAJOBS footer 'Accessibility' link goes to a USAJOBS Help Center article on usajobshelp.opm.gov. That article says to use a 'Contact us' form at the bottom of the page for both 'questions or feedback' and Section 508 complaints, and that 'Information you submit goes to the USAJOBS help desk for review and will get sent to the appropriate people who can address it.' CONFLICT: OPM.gov says email section508@opm.gov; the USAJOBS article says use the help-desk form. Both are labeled as complaint paths, so both are purpose 'complaint'; a human may decide the USAJOBS form is really 'feedback'. I did not see the form itself (the help center returns a Cloudflare challenge to curl; I read the article through a scraping service, main content only) and did not submit anything. The USAJOBS article does not mention section508@opm.gov. OPM's Section 508 Policy (2021 PDF) mentions 'informal 508 complaints' and 'formal Section 508 complaints' but gives no filing procedure or address. FILING WINDOW: 5 CFR part 723 (OPM's Section 504 federally-conducted rule) confirmed on eCFR; window is §723.170(d). 723.170(c) says 'Complaints may be sent to the Assistant Director for Personnel and EEO, Office of Personnel Management, Room 1479, 1900 E St., NW., Washington, DC 20415.' No OPM web page I read gives that office or room for 508 complaints, so I left it out of channels. PM: NULL. GSA's listing has an 'Office of Personnel Management (OPM)' heading with no name under it (checked the raw HTML: the h2 is followed directly by the next agency). OPM's own page names no program manager. PHONE: OPM general line from the contact page. I found no USAJOBS phone number; USAJOBS help appears to be form-based. About 2 minutes."
+    },
+    {
+      "id": "doc-census",
+      "name": "U.S. Census Bureau (Department of Commerce)",
+      "routingLevel": "department",
+      "parent": "Department of Commerce",
+      "domains": [
+        "census.gov"
+      ],
+      "statementUrl": "https://www.census.gov/about/policies/section-508.html",
+      "channels": [
+        {
+          "type": "webform",
+          "purpose": "feedback",
+          "address": null,
+          "url": "https://ask.census.gov/support/case",
+          "instructionsQuote": "For other questions or feedback related to accessing our websites, surveys, or other products and services—including logins, getting data, and more—please contact the Census Bureau Call Center by phoning 1-800-923-8282 (TTY 1-800-877-8339) or sending us a message via our Help site.",
+          "source": "https://www.census.gov/about/policies/section-508.html"
+        },
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "census.508.accessibility@census.gov",
+          "url": null,
+          "instructionsQuote": "If you have trouble accessing any resources or content on this website or any of our digital tools or services and wish to file an official complaint, please contact our Section 508 Program Office via one of these three methods:",
+          "source": "https://www.census.gov/about/policies/section-508.html"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "U.S. Census Bureau, ATTN: Section 508 Program Office, 4600 Silver Hill Road, Washington, DC 20233",
+          "url": null,
+          "instructionsQuote": "If you have trouble accessing any resources or content on this website or any of our digital tools or services and wish to file an official complaint, please contact our Section 508 Program Office via one of these three methods:",
+          "source": "https://www.census.gov/about/policies/section-508.html"
+        },
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "ocr@doc.gov",
+          "url": null,
+          "instructionsQuote": "For information about filing a complaint against DOC and its bureaus under Section 508, contact:",
+          "source": "https://www.commerce.gov/cr/complaints/section-508-architectural-barriers-act-aba-notice-rights"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "Deputy Director/Director, Administration and Special Projects Division, Office of Civil Rights, 1401 Constitution Avenue, NW, Rm 6058, Washington, DC 20230",
+          "url": null,
+          "instructionsQuote": "For information about filing a complaint against DOC and its bureaus under Section 508, contact:",
+          "source": "https://www.commerce.gov/cr/complaints/section-508-architectural-barriers-act-aba-notice-rights"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-15/section-8c.70",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. The agency may extend this time period for good cause.",
+      "phone": {
+        "number": "1-800-923-8282",
+        "label": "Census Bureau Call Center (TTY 1-800-877-8339)",
+        "source": "https://www.census.gov/about/policies/section-508.html"
+      },
+      "pm": {
+        "name": "David Whittington",
+        "email": "david.j.whittington@census.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.census.gov/about/policies/section-508.html",
+        "https://www.commerce.gov/about/policies/section-508-accessibility-statement",
+        "https://www.commerce.gov/cr/complaints/section-508-architectural-barriers-act-aba-notice-rights",
+        "https://www.ecfr.gov/current/title-15/section-8c.70",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ID/SCOPE: the assigned id is 'doc', but this entry covers census.gov only (like 'hhs-cms'). Consider renaming to 'doc-census'. commerce.gov is NOT in domains. Its statement sends feedback/program questions to accessibility@doc.gov and formal complaints to the DOC Office of Civil Rights; it would need its own department-level entry. ROUTING, NEEDS HUMAN DECISION: the sources conflict. (1) Census's own 'Section 508 Accessibility Statement' ('Page Last Revised - March 18, 2026') has 'How To File an Official Accessibility Complaint' and routes it to the Census Section 508 Program Office (bureau level): email, phone 301-763-1508, or mail. (2) Commerce's Office of Civil Rights 'Section 508 & Architectural Barriers Act (ABA) Notice of Rights' (og:updated_time 2021-08-20) says complaints 'against DOC and its bureaus under Section 508' go to the DOC Office of Civil Rights, ocr@doc.gov, 'Subject Line: Section 508 Complaint'. (3) 15 CFR 8c.70(c) (Agency means the Department of Commerce, §8c.3) says 'Complaints may be sent to Chief, Compliance Division, Office of Civil Rights, Room 6012, Herbert C. Hoover Building, 14th and Constitution Avenue, Washington, DC, 20230.' I set routingLevel 'department' because the regulation and the department notice, which explicitly covers bureaus, both put formal complaints at DOC OCR. I kept the Census office channels as purpose 'complaint' because Census explicitly calls them its 'official complaint' path. Census's page never mentions DOC OCR, and the DOC notice never mentions the Census office. Unlike the IRS/Treasury case in batch 1, the DOC notice explicitly covers bureaus, so I added its channels to this entry. MORE CONFLICTS: the Commerce statement ('Page Last Reviewed/Updated February 12, 2025') lists 'Phone: 301-763-1508' for DOC OCR complaints. That is the same number Census gives for its own Section 508 Program Office (301 is the Census HQ area code), so one of the two pages is likely wrong. The OCR room is 'RM 6058' (Commerce pages) vs 'Room 6012' (regulation). EMAIL DECODING: census.gov hides email addresses behind Cloudflare email-protection links. I decoded them from the page's HTML: complaint/PM inbox census.508.accessibility@census.gov; the Census page lists that inbox, not a personal address, for PM David Whittington. A human should confirm the address in a browser. HELP FORM: https://ask.census.gov/support/case is linked from the Census statement; I did not open or submit it. FILING WINDOW: 15 CFR part 8c confirmed on eCFR; note the section is §8c.70(d), not 8c.170. PM: GSA lists 'Bureau of the Census (CENSUS)' David Whittington, david.j.whittington@census.gov. DOC agencywide on GSA: Jennifer Jessup, jjessup@doc.gov. The Commerce statement names 'Jennifer Jessup – Section 508 Officer' and 'Dawan Ginn – Section 508 Policy Advisor' with accessibility@doc.gov. The DOC notice gives Jessup's phone as (202) 482-0336. FETCHING: commerce.gov returns 403 to plain curl, so I read both Commerce pages through a scraping service and checked those quotes by eye. https://www.commerce.gov/page/accessibility-statement is 404. About 2.5 minutes."
+    },
+    {
+      "id": "usps",
+      "name": "U.S. Postal Service",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "usps.com",
+        "usps.gov"
+      ],
+      "statementUrl": "https://about.usps.com/who/legal/accessibility-statement/",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "Section508@usps.gov",
+          "url": null,
+          "instructionsQuote": "If you have feedback or concerns related to the accessibility of any content on Postal Service websites, or have ideas or comments that would help us improve the accessibility and usability of our website, please contact our Section 508 Program manager at Section508@usps.gov.",
+          "source": "https://about.usps.com/who/legal/accessibility-statement/"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "Vice President and Consumer Advocate, United States Postal Service, 475 L'Enfant Plaza SW, Washington, DC 20260",
+          "url": null,
+          "instructionsQuote": "Formal complaints must be sent to the Vice President and Consumer Advocate at the following address:",
+          "source": "https://about.usps.com/who/legal/accessibility-statement/"
+        }
+      ],
+      "filingWindowDays": null,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-39/section-255.6",
+      "filingWindowQuote": "A formal complaint shall be filed within 30 days of the date the complainant receives the decision of the area/functional vice president to deny relief.",
+      "phone": {
+        "number": "1-800-275-8777",
+        "label": "Customer Care Center, 1-800-ASK-USPS; Monday – Friday 8 AM – 8:30 PM ET, Saturday 8 AM – 6 PM ET (TTY: dial 7-1-1)",
+        "source": "https://www.usps.com/help/contact-us.htm"
+      },
+      "pm": {
+        "name": "Nadereh Nasir",
+        "email": "nadereh.nasir@usps.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://about.usps.com/who/legal/accessibility-statement/",
+        "https://www.usps.com/help/contact-us.htm",
+        "https://www.ecfr.gov/current/title-39/section-255.6",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: department-level (USPS is independent; no parent). TWO-STEP PROCESS, which no other agency so far has: the USPS statement ('Updated on July 12, 2023') and 39 CFR 255.6(d) both require an INFORMAL complaint first: 'A complainant initiates the informal process by informing the responsible postal manager orally or in writing of the alleged discrimination or inaccessibility of Postal Service programs, activities, or ICT.' Neither names an address, email, or form for the informal step ('the responsible postal manager' is undefined for websites). So the informal step has no channel here. A human should decide whether Section508@usps.gov (labeled for 'feedback or concerns') or the general 1-800-ASK-USPS line counts as informing a postal manager. The area/functional vice president must decide the informal complaint on or before the 60th day. Only if relief is denied may the complainant file a FORMAL complaint (the mail channel). That must be filed within 30 days of receiving the denial, and the complainant must then exhaust the formal process before suing elsewhere. FILING WINDOW: filingWindowDays is NULL on purpose. 39 CFR part 255 is USPS's combined Section 504 and Section 508 rule (§255.1; Agency means the Postal Service, §255.2(a); 255.6(c) applies it to 508 complaints from the public). I confirmed it on eCFR. It sets NO deadline from the date of the barrier for the informal complaint; the only deadline is the 30-day formal-complaint window, counted from the informal denial. Putting '30' in filingWindowDays would wrongly imply 30 days from the barrier. The source and quote point at that 30-day rule so a human can decide how to show it. Section 508.gov's 'Best Practices' page (search snippet only, not opened) cites USPS as an agency that folded 508 complaints into its 504 procedures. DOMAINS: usps.gov is confirmed as USPS's. whois.nic.gov shows 'Registrant Organization: United States Postal Service', CISA's .gov registry CSV lists 'usps.gov,Federal - Executive,United States Postal Service', and https://usps.gov 301-redirects to https://www.usps.com/. usps.com: the www.usps.com footer links the about.usps.com accessibility statement, USPS's PM and Section 508 emails are @usps.gov, and the USPS-registered usps.gov redirects there. Public WHOIS for usps.com does not name an organization (registrant street 4200 Wake Forest Road, Raleigh, NC). about.usps.com, tools.usps.com and store.usps.com are subdomains covered by usps.com. https://www.usps.com/accessibility is a 404 (and 403 to plain curl); the statement lives only on about.usps.com. PHONE: 1-800-ASK-USPS from the contact page. Technical Support for website applications (Click-N-Ship, File a Claim, PO Boxes, Postal Store, USPS accounts) is 1-800-344-7779, same hours; arguably better for a web barrier, so a human should choose. PM: GSA lists 'Nadereh Nasir', nadereh.nasir@usps.gov; the USPS statement names no PM, only the Section508@usps.gov inbox. Handbook AS-508 (https://about.usps.com/handbooks/as508/welcome.htm) is linked from the statement; I did not read it. Normalized a non-breaking space between the two sentences of the formal-complaint passage; the channel quote is the second sentence only. usps.com pages 403 plain curl; I read the contact page through a scraping service. about.usps.com fetched directly. About 2 minutes."
+    }
+  ]
+}

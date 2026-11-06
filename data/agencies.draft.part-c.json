@@ -1,0 +1,284 @@
+{
+  "$schema-note": "Draft. Not verified by a human. Every non-null field must be confirmed by J. Holzman before publishing.",
+  "license": "CC0-1.0",
+  "generated": "2026-10-03",
+  "agencies": [
+    {
+      "id": "sba",
+      "name": "Small Business Administration",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "sba.gov"
+      ],
+      "statementUrl": "https://www.sba.gov/about-sba/open-government/about-the-sba-gov-website#accessibility",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "508complaints@sba.gov",
+          "url": null,
+          "instructionsQuote": "If you have trouble accessing any resources or content on this site, or to file a formal accessibility complaint, please send an email to 508complaints@sba.gov and include:",
+          "source": "https://www.sba.gov/about-sba/open-government/about-the-sba-gov-website#accessibility"
+        },
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "508@sba.gov",
+          "url": null,
+          "instructionsQuote": "For questions or comments about the accessibility of any SBA.gov content, please email 508@sba.gov.",
+          "source": "https://www.sba.gov/about-sba/open-government/about-the-sba-gov-website#accessibility"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-13/section-136.170",
+      "filingWindowQuote": "Complaints shall be filed within 180 days of the alleged act of discrimination, except when this deadline is extended by the AA/EEOCCR for good cause shown.",
+      "phone": {
+        "number": "1-800-827-5722",
+        "label": "SBA Answer Desk (general inquiries), Monday-Friday 9:00 a.m. to 6:00 p.m. ET; closed on federal holidays",
+        "source": "https://www.sba.gov/about-sba/organization/contact-sba"
+      },
+      "pm": {
+        "name": "Janice MacLean",
+        "email": "janice.maclean@sba.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.sba.gov/about-sba/open-government/about-the-sba-gov-website#accessibility",
+        "https://www.sba.gov/about-sba/organization/contact-sba",
+        "https://www.ecfr.gov/current/title-13/section-136.170",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: SBA's accessibility statement (www.sba.gov/accessibility redirects to the 'About the SBA.gov website' page, #accessibility section) names one inbox for both help and formal complaints: 508complaints@sba.gov, under the heading 'Help, feedback, and formal complaints'. The page asks complainants to include: the nature of the issue, the page URL, device and browser, assistive technology used, preferred format, and contact information. 508@sba.gov is for 'questions or comments'. No mailing address, web form, or Section 504 complaint page is given on the statement, and a brief web search found no separate SBA public page for 504 complaints about SBA-conducted programs. CONFLICT / REGULATION ADDRESS: 13 CFR 136.170(c)(4) says 'Complaints may be delivered or mailed to the AA/EEOCCR Small Business Administration, 1441 L Street NW.—Room 501, Washington, DC 20416.' That address appears only in the regulation and is likely outdated; I did not verify SBA's current headquarters address and left it out of channels. The regulation still cites EEOC's old 29 CFR part 1613 for employment complaints. PHONE: the accessibility statement itself says 'For immediate help, call 202-205-6750.' That number arguably fits the 'call and ask for another way' advice better than the Answer Desk; a human should choose. The statement also says 'Dial 711 to access TRS services.' The Answer Desk email is answerdesk@sba.gov. PM: GSA lists one SBA contact (Janice MacLean). The SBA statement does not name a PM. No 'last updated' date appears on the SBA page. Time: about 2 minutes."
+    },
+    {
+      "id": "dot",
+      "name": "Department of Transportation",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "transportation.gov"
+      ],
+      "statementUrl": "https://www.transportation.gov/mission/office-secretary/office-chief-digital-information-officer/digital-accessibility-statement",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "Section508@dot.gov",
+          "url": null,
+          "instructionsQuote": "If you require assistance or wish to report an issue related to the accessibility of any content on this website, please e-mail Section508@dot.gov. If applicable, please include the web address or URL and the specific problems you have encountered.",
+          "source": "https://www.transportation.gov/mission/office-secretary/office-chief-digital-information-officer/digital-accessibility-statement"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-49/section-28.170",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. The Department may extend this time period for good cause.",
+      "phone": {
+        "number": "202-366-4000",
+        "label": "DOT Customer Service Center, Monday through Friday 8:30 am to 5:30 pm ET, excluding Federal Holidays (TRS: dial 7-1-1)",
+        "source": "https://www.transportation.gov/contact-us"
+      },
+      "pm": {
+        "name": "LaVette Sydnor",
+        "email": "lavette.sydnor@dot.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.transportation.gov/mission/office-secretary/office-chief-digital-information-officer/digital-accessibility-statement",
+        "https://www.transportation.gov/accessibility",
+        "https://www.transportation.gov/contact-us",
+        "https://www.transportation.gov/drc/section-508",
+        "https://www.transportation.gov/web-policies/508-compliance",
+        "https://www.transportation.gov/civil-rights",
+        "https://www.transportation.gov/mission/civil-rights/complaint-resolution/public-complaint-process-reporting-concerns",
+        "https://www.ecfr.gov/current/title-49/section-28.170",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "NO FORMAL COMPLAINT CHANNEL FOUND: DOT's Digital Accessibility Statement (footer link 'Digital Accessibility'; the .../office-chief-information-officer/... URL redirects to the .../office-chief-digital-information-officer/... URL used here; 'Last updated: Tuesday, September 29, 2026') offers only Section508@dot.gov for assistance or issue reports. It lists the information to include: URL (required), problem description (required), and optional contact name, email, phone, best contact method, and preferred format. It never describes a formal Section 508 or 504 complaint process, so there is no 'complaint' channel. 49 CFR 28.170(c) vests complaint handling in the 'Director, Departmental Office of Civil Rights' but gives no address. routingLevel is 'department' because that regulation is department-wide. NOT USED AS CHANNELS: (1) DOCR's 'Public Complaint Process & Reporting Concerns' page (Last updated August 13, 2026) offers a Google Forms 'Public Complaint Form'. That page is for discrimination 'by an entity regulated by or receiving Federal financial assistance from' DOT, not by DOT itself, and does not mention Section 508. It also links two different forms.gle URLs (J1nxYWpM1WTN3GFx8 near the top, XQrXhagvFKdBaujv5 under 'Civil rights involving transportation'). Disability/language assistance for that process: usdot.civilrights@dot.gov. (2) The DOCR landing page says DOCR ensures 'that DOT conducts its programs and activities free of discrimination' and enforces Section 504, but gives no public intake for DOT-conducted programs. A human might ask DOCR whether usdot.civilrights@dot.gov or the Public Complaint Form accepts 508 complaints about DOT's own ICT. PHONE CONFLICTS: the contact page says hours 8:30 am to 5:30 pm ET (page last updated February 25, 2021). The 'ADA at DOT' page (/accessibility, last updated February 13, 2025) gives the same number with 'Business Hours: 8:30am-5:00pm ET, M-F'. The site footer lists an unlabeled 855-368-4200. PM: the statement also lists LaVette Sydnor (phone 202-836-1303), matching GSA. GSA also lists Kellie Korzen (Deputy), kellie.korzen@dot.gov, plus separate PMs for each operating administration (FAA, FHWA, FMCSA, FRA, FTA, MARAD, NHTSA, OIG, PHMSA, BTS, Volpe). Operating administrations run their own sites (faa.gov, nhtsa.gov, etc.); I checked only transportation.gov, so domains lists only that. DRC's Section 508 page (last updated 2022) has no complaint info and lists stale GSA/Access Board addresses. FETCHING: transportation.gov returns 403 to plain curl, so I read all DOT pages through a scraping service (markdown). The quote drops the screen-reader text '(link sends email)' that the scraper showed after the link. Time: about 3 minutes (the hardest)."
+    },
+    {
+      "id": "doi",
+      "name": "Department of the Interior",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "doi.gov"
+      ],
+      "statementUrl": "https://www.doi.gov/accessibility",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "section508@ios.doi.gov",
+          "url": null,
+          "instructionsQuote": "To provide feedback, concerns, suggestions, or to file a Section 508 complaint regarding our website's accessibility and usability, please contact the Section 508 Program Manager, Sid Sharma, at section508@ios.doi.gov or 1-202-219-0963. When reporting specific issues, please include the web address/URL.",
+          "source": "https://www.doi.gov/accessibility"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "U.S. Department of the Interior, Director, Office of Civil Rights, Mail Stop 4359, 1849 C Street N.W., Washington, D.C. 20240",
+          "url": null,
+          "instructionsQuote": "Correspondence for complaints can be addressed to:",
+          "source": "https://www.doi.gov/accessibility"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-43/section-17.570",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. The agency may extend this time period for good cause.",
+      "phone": {
+        "number": "(202) 208-3100",
+        "label": "Main phone line (TRS: dial 7-1-1)",
+        "source": "https://www.doi.gov/contact-us"
+      },
+      "pm": {
+        "name": "Sid Sharma",
+        "email": "siddhartha_sharma@ios.doi.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.doi.gov/accessibility",
+        "https://www.doi.gov/pmb/eeo/Public-Civil-Rights",
+        "https://www.doi.gov/contact-us",
+        "https://www.ecfr.gov/current/title-43/section-17.570",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "PURPOSE AMBIGUITY, NEEDS HUMAN REVIEW: the statement (Last Modified: 4/1/2024) sends feedback and Section 508 complaints alike to section508@ios.doi.gov, which is the Section 508 Program Manager's inbox. I marked it 'complaint' because the page names it for filing a 508 complaint, but it doubles as the feedback channel. The page then says 'Correspondence for complaints can be addressed to' the Office of Civil Rights, and adds 'The Office of Civil Rights will apply the complaint procedures outlined in 43 CFR Part 17, Subpart E, which are established to implement Section 504 for resolving allegations of discrimination in a Federally conducted program or activity.' That confirms 43 CFR 17.570 as the procedure. The PM phone 1-202-219-0963 appears in the email quote. ADDRESS DIFFERENCES: 43 CFR 17.570(c) says 'Director, Office for Equal Opportunity, U.S. Department of the Interior, Washington, DC 20240' (older office name, no street). DOI's Public Civil Rights page says 'Within 180 days of the date of the alleged discrimination, a signed, written complaint should be filed with the Director, Office of Civil Rights, Department of the Interior, 1849 C Street, NW Washington, DC, 20240' (no Mail Stop). That page's division director contact is Sloan_Farrell@ios.doi.gov. BUREAUS: DOI has many bureaus with their own sites (nps.gov, blm.gov, fws.gov, usgs.gov, etc.) and GSA lists a separate 508 PM for most of them. The statement points to a 'Bureau/Office Section 508 Program Manager' list (https://www.doi.gov/ocio/section508-contacts; fetched, not reviewed in detail) 'for program-related questions or comments'. I did not check whether bureau sites route formal complaints to DOI's Office of Civil Rights, so domains lists only doi.gov. PM: GSA lists Sid Sharma as Agencywide PM (also for the Solicitor and OSMRE). The statement names Sid Sharma but gives the shared inbox, not his personal address. FETCHING: doi.gov/contact-us served a bot challenge to plain curl, so I read it through a scraping service. Other doi.gov pages fetched directly. Time: about 1.5 minutes."
+    },
+    {
+      "id": "nara",
+      "name": "National Archives and Records Administration",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "archives.gov"
+      ],
+      "statementUrl": "https://www.archives.gov/global-pages/accessibility",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "508feedback@nara.gov",
+          "url": null,
+          "instructionsQuote": "This mailbox is specifically meant for inquiries related to digital accessibility for individuals with disabilities.",
+          "source": "https://www.archives.gov/global-pages/accessibility"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "National Archives and Records Administration, Section 508 Coordinator, 8601 Adelphi Road, Room 4400, College Park, MD 20740-6001",
+          "url": null,
+          "instructionsQuote": "For information about filing a complaint against NARA's under Section 508, contact:",
+          "source": "https://www.archives.gov/eeo/policy/508-aba-rights"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-36/section-1208.170",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. The agency may extend this time period for good cause.",
+      "phone": {
+        "number": "1-866-272-6272",
+        "label": "1-86-NARA-NARA (TRS: dial 711)",
+        "source": "https://www.archives.gov/contact"
+      },
+      "pm": {
+        "name": "Farooq Khan",
+        "email": "farooq.khan1@nara.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.archives.gov/global-pages/accessibility",
+        "https://www.archives.gov/eeo/policy/508-aba-rights",
+        "https://www.archives.gov/contact",
+        "https://www.archives.gov/eeo",
+        "https://www.ecfr.gov/current/title-36/section-1208.170",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: the accessibility page ('last reviewed on March 12, 2026') links a 'Section 508 & Architectural Barriers Notice of Rights' ('last reviewed on September 6, 2024'). That notice says 'If you have questions about the NARA's Section 508 program supporting ICT, e-mail 508feedback@nara.gov.' It then gives the mail contact for complaints. CAVEAT: the notice offers that address 'For information about filing a complaint', not as the place to file. I marked it 'complaint' because it is the only complaint path NARA names. The quote keeps the page's typo ('against NARA's under Section 508'). The same block lists 'Telephone: 301-837-0634' for the Section 508 Coordinator. The notice also links an old URL, www.section508.gov/508-coordinator-listing. CONFLICT: 36 CFR 1208.170(c) says 'Compliants [sic] may be sent to National Archives and Records Administration (NA), Washington, DC 20408' and names the Assistant Archivist for Management and Administration as coordinator. That differs from the notice's College Park address. The accessibility page also invites alternate-format requests 'at the address above' (meaning 508feedback@nara.gov) and asks for the nature of the issue, preferred format, URL, and contact info. The NARA EEO page covers employee EEO complaints only. PM: the accessibility page names 'Section 508 Program Manager: Farooq Khan' with the shared inbox 508feedback@nara.gov. GSA gives his personal address as farooq.khan1@nara.gov. GENERAL CONTACT: inquire@nara.gov and the mailing address 8601 Adelphi Road, College Park, MD 20740-6001. Time: about 1 minute."
+    },
+    {
+      "id": "cfpb",
+      "name": "Consumer Financial Protection Bureau",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "consumerfinance.gov"
+      ],
+      "statementUrl": "https://www.consumerfinance.gov/accessibility/",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "CFPB_Accessibility@cfpb.gov",
+          "url": null,
+          "instructionsQuote": "If you encounter any page on our website that presents a challenge for users with disabilities, please let us know by emailing CFPB_Accessibility@cfpb.gov. To help us address the issue, include:",
+          "source": "https://www.consumerfinance.gov/accessibility/file-accessibility-complaint/"
+        },
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "CFPB_EEO@cfpb.gov",
+          "url": null,
+          "instructionsQuote": "To file a formal complaint about an accessibility violation, submit your complaint by email, fax, or mail.",
+          "source": "https://www.consumerfinance.gov/accessibility/file-accessibility-complaint/"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "Office of Civil Rights, Consumer Financial Protection Bureau, 445 12th Street, SW, Washington, DC 20024",
+          "url": null,
+          "instructionsQuote": "To file a formal complaint about an accessibility violation, submit your complaint by email, fax, or mail.",
+          "source": "https://www.consumerfinance.gov/accessibility/file-accessibility-complaint/"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "Labor and Employee Relations, Office of the Chief Human Capital Officer Consumer Financial Protection Bureau, 1700 G Street NW., Washington, DC 20052",
+          "url": null,
+          "instructionsQuote": "All other complaints alleging violations of section 504 or section 508 may be sent to Labor and Employee Relations, Office of the Chief Human Capital Officer Consumer Financial Protection Bureau, 1700 G Street NW., Washington, DC 20052.",
+          "source": "https://www.ecfr.gov/current/title-12/section-1072.112"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-12/section-1072.112",
+      "filingWindowQuote": "A complete complaint must be filed within 180 days of the alleged act of discrimination. A complaint submitted to the Bureau via first-class mail will be deemed to have been filed when postmarked. A complaint submitted to the Bureau via any other means of delivery will be deemed to have been filed when received by the Bureau. The Bureau may extend this time period for good cause.",
+      "phone": {
+        "number": "(855) 411-2372",
+        "label": "Call us, 9 a.m. to 6 p.m. ET, Monday through Friday (except federal holidays); TTY/TTD (855) 729-2372",
+        "source": "https://www.consumerfinance.gov/about-us/contact-us/"
+      },
+      "pm": {
+        "name": "Jennifer Horan",
+        "email": "jennifer.horan@cfpb.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.consumerfinance.gov/accessibility/",
+        "https://www.consumerfinance.gov/accessibility/file-accessibility-complaint/",
+        "https://www.consumerfinance.gov/about-us/contact-us/",
+        "https://www.ecfr.gov/current/title-12/section-1072.112",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: CFPB's complaint page ('Provide website feedback or file a formal disability accessibility complaint', 'Page last modified Jun. 29, 2026') separates feedback (CFPB_Accessibility@cfpb.gov) from formal 504/508 complaints sent to the Office of Civil Rights by email (CFPB_EEO@cfpb.gov), fax ((202) 435-9598; the schema has no fax type), or mail. The page says complaints are due 'within 180 days of the alleged violation'. A complaint may be a written statement, audio file, Braille, electronic, or video. It must include name and address, the date, a detailed description, and a signature (or, for non-paper formats, an 'affirmative identity statement'). CFPB responds within 180 days, and appeals are due within 30 days. CONFLICT, NEEDS HUMAN REVIEW: 12 CFR 1072.112(c) sends 504/508 complaints to Labor and Employee Relations, Office of the Chief Human Capital Officer, 1700 G Street NW, Washington DC 20052. The current web page instead names the Office of Civil Rights at 445 12th Street SW, Washington DC 20024. Both are recorded; the page channels come first. The regulation address is probably outdated. The page links the 2012 Federal Register rule rather than the eCFR. EMAIL DOMAIN CONFLICT: the page body and the statement use CFPB_Accessibility@cfpb.gov, but the 'Accessibility feedback' sidebar on both pages uses CFPB_Accessibility@consumerfinance.gov. The sidebar also has a 'Send a Section 504 request' link to CFPB_504Request@consumerfinance.gov, which is for accommodation requests. The prior-art note recorded only the @consumerfinance.gov forms; the visible body text uses @cfpb.gov. The statement (CFPB_STMT, 'Page last modified Dec. 12, 2024') calls CFPB_Accessibility@cfpb.gov the 'CFPB Section 508 coordinator' contact. PM: GSA lists Jennifer Horan under Small and Independent Agencies; CFPB's pages name no PM. FILING WINDOW: 12 CFR 1072.112(d)(3), confirmed in the eCFR versioner API (Title 12 current as of 2026-10-01). Part 1072 is CFPB's own rule, and 1072.112(a) covers 'denial of access to electronic and information technology'. Time: about 1.5 minutes."
+    }
+  ]
+}

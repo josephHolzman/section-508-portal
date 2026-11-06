@@ -1,0 +1,429 @@
+{
+  "$schema-note": "Draft. Not verified by a human. Every non-null field must be confirmed by J. Holzman before publishing. Part A: DHS (with TSA), DHS/USCIS, DHS/FEMA, ED (with FSA), DOL, USDA, HUD. Adds a per-channel 'purpose' field: 'complaint' (formal Section 508/504 complaint path the agency names) or 'feedback' (accessibility help/feedback path).",
+  "license": "CC0-1.0",
+  "generated": "2026-10-03",
+  "agencies": [
+    {
+      "id": "dhs",
+      "name": "Department of Homeland Security (including Transportation Security Administration)",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "dhs.gov",
+        "tsa.gov"
+      ],
+      "statementUrl": "https://www.dhs.gov/accessibility",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "accessibility@hq.dhs.gov",
+          "url": null,
+          "instructionsQuote": "Do you have trouble using a DHS website or technology? Let us know so we can take action! Alternatively, you can file a formal complaint online.",
+          "source": "https://www.dhs.gov/accessibility"
+        },
+        {
+          "type": "webform",
+          "purpose": "complaint",
+          "address": null,
+          "url": "https://engage.dhs.gov/crcl-complaint",
+          "instructionsQuote": "You can use the online portal to submit your complaint directly to CRCL. You will receive a confirmation number and your complaint report will be immediately available for CRCL staff to review.",
+          "source": "https://www.dhs.gov/make-civil-rights-complaint"
+        },
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "Accessibility@tsa.dhs.gov",
+          "url": null,
+          "instructionsQuote": "For general inquiries please email Accessibility@tsa.dhs.gov. To make sure we respond in a manner most helpful to you, please share the nature of your accessibility problem, the best format in which to receive the material, the web address (URL) of the material with which you are having difficulty, and your contact information.",
+          "source": "https://www.tsa.gov/accessibility"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-6/section-15.70",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. The Department may extend this time period for good cause.",
+      "phone": {
+        "number": "202-282-8000",
+        "label": "DHS Headquarters Operator Number (TTY: use the Federal Relay Service)",
+        "source": "https://www.dhs.gov/direct-contact-information"
+      },
+      "pm": {
+        "name": "Brandon Pace",
+        "email": "brandon.pace@hq.dhs.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.dhs.gov/accessibility",
+        "https://www.dhs.gov/make-civil-rights-complaint",
+        "https://www.dhs.gov/file-a-civil-rights-complaint",
+        "https://www.dhs.gov/disability-access-department-homeland-security",
+        "https://www.dhs.gov/direct-contact-information",
+        "https://www.tsa.gov/accessibility",
+        "https://www.tsa.gov/contact/customer-service",
+        "https://www.ecfr.gov/current/title-6/section-15.70",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: formal 508 complaints go to the DHS Office for Civil Rights and Civil Liberties (CRCL), so routingLevel is 'department'. The DHS accessibility page (Last Updated 08/07/2026) has a 'Report Accessibility Issues' card that sends feedback to accessibility@hq.dhs.gov (mailto subject 'Report 508 Issue') and links 'formal complaint online' to https://www.dhs.gov/file-civil-rights-complaint, which 301-redirects to /make-civil-rights-complaint (Last Updated 04/08/2026). That page lists CRCL's jurisdiction as including 'Inaccessible Information and Communication Technology (ICT) complaints covered under Section 508 of the Rehabilitation Act of 1973, as amended by the Workforce Investment Act of 1988.' (sic: the 1998 amendment, page says 1988). The only filing method on the current page is the online portal. The portal (engage.dhs.gov, ServiceNow) returned only a 'browser not supported' shell to my fetcher, so I could not read the form itself; I did not submit anything. TSA: tsa.gov/accessibility (Last Update: 02/16/2024) routes formal 508 complaints to DHS: 'If you believe that the Information and Communication Technology (ICT) used by TSA does not comply with Section 508 of the Rehabilitation Act, you may file a 508 complaint by following the steps outlined on the Civil Rights and Civil Liberties Make a Civil Rights Complaint page.' TSA keeps only the feedback inbox Accessibility@tsa.dhs.gov. So TSA is folded into this entry. EMAIL/FAX/MAIL TO CRCL, NOT USED: an older page still live at https://www.dhs.gov/file-a-civil-rights-complaint (Last Updated: 01/31/2025) offers a fillable PDF and 'Submit a Complaint by Email, Fax, Phone, or Postal Mail', but its button target (/submit-civil-rights-complaint-through-email-fax-phone-or-postal-mail) now redirects to the portal. Third-party sites and a 2013 DHS PDF list CRCLCompliance@hq.dhs.gov and fax 202-401-4708; I found no current official DHS page that shows them, so they are left out. The DHS 504 page lists crcl@hq.dhs.gov for policy questions, and says ICE-related Section 504 complaints go to ICECivilLiberties@ice.dhs.gov. Not used as 508 channels. FILING WINDOW: 6 CFR part 15 is the DHS federally-conducted Section 504 rule; 15.2 says it applies to all programs or activities conducted by the Department. 15.70(c) says complaints 'may be sent to the Officer for Civil Rights and Civil Liberties, Department of Homeland Security, Washington, DC 20528.' (Title 6 eCFR issue 2026-08-12.) PHONE: the operator line is a switchboard, not a help line. Alternatives: DHS Comment Line 202-282-8495 (same page); the accessibility page footer gives 'Customer Experience Directorate ... Phone: 202-447-0440' with accessibility@hq.dhs.gov, which may fit the 'ask for another way' advice better; TSA Contact Center (866) 289-9673 (tsa.gov/contact/customer-service; automated info anytime, representatives 8 a.m. to 11 p.m. ET weekdays, 9 a.m. to 8 p.m. weekends/holidays). A human should pick. PM: GSA lists Brandon Pace as DHS Agencywide and HQ. TSA PM CONFLICT: GSA lists TSA as Thomas Lockley (thomas.lockley@tsa.dhs.gov) and Elliot Hoang (Deputy; the name is spelled 'Elliot' but the address is elliott.hoang@tsa.dhs.gov). TSA's own page says 'Matt Byrne, TSA Section 508 Program Manager, Matthew.Byrne@tsa.dhs.gov'. Other DHS components (CBP, ICE, CISA, USCG, USSS, etc.) were not researched. Time: about 3 minutes (wall-clock estimate; the whole batch took about 15 minutes of fetching plus drafting)."
+    },
+    {
+      "id": "dhs-uscis",
+      "name": "U.S. Citizenship and Immigration Services (Department of Homeland Security)",
+      "routingLevel": "bureau",
+      "parent": "Department of Homeland Security",
+      "domains": [
+        "uscis.gov"
+      ],
+      "statementUrl": "https://www.uscis.gov/website-policies/accessibility",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "USCIS-SECTION508@uscis.dhs.gov",
+          "url": null,
+          "instructionsQuote": "If you believe that our ICT does not comply with Section 508 of the Rehabilitation Act, you may file a 508 complaint by emailing USCIS-SECTION508@uscis.dhs.gov. Please indicate the nature of your accessibility problem, the web address (URL) of the material you are having difficulty with, the format you prefer to receive the material in, and your contact information. This information will help us respond to you more effectively.",
+          "source": "https://www.uscis.gov/website-policies/accessibility"
+        },
+        {
+          "type": "webform",
+          "purpose": "complaint",
+          "address": null,
+          "url": "https://www.dhs.gov/make-civil-rights-complaint",
+          "instructionsQuote": "If you would like to file a civil rights and civil liberties complaint, use the CRCL complaint submission process.",
+          "source": "https://www.uscis.gov/website-policies/accessibility"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-6/section-15.70",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. The Department may extend this time period for good cause.",
+      "phone": {
+        "number": "800-375-5283",
+        "label": "USCIS Contact Center (TTY 800-767-1833); live calls and chats Monday to Friday, 8am to 8pm Eastern; outside the U.S. call 212-620-3418",
+        "source": "https://www.uscis.gov/contactcenter"
+      },
+      "pm": {
+        "name": "Kenneth S. Moser",
+        "email": "kenneth.s.moser@uscis.dhs.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.uscis.gov/website-policies/accessibility",
+        "https://www.uscis.gov/contactcenter",
+        "https://www.uscis.gov/about-us/contact-us",
+        "https://www.dhs.gov/make-civil-rights-complaint",
+        "https://www.ecfr.gov/current/title-6/section-15.70",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: USCIS runs its own formal 508 complaint intake, so this is a separate 'bureau' entry. Its accessibility page (Last Reviewed/Updated: 09/24/2026) has the heading 'Report accessibility issues or file a formal accessibility complaint' and says you 'may file a 508 complaint by emailing USCIS-SECTION508@uscis.dhs.gov'. The same mailbox also serves accessibility help: '(Please note: The Accessibility mailbox is designed for people with disabilities who need assistance. ...)'. AMBIGUITY: the page does not say how USCIS investigates or decides a 508 complaint, or whether it hands complaints to DHS CRCL. The 6 CFR part 15 rule puts Section 504 complaints with the DHS Officer for Civil Rights and Civil Liberties. A human should decide whether 'bureau' is right or whether this belongs under the DHS entry with a USCIS-specific inbox. The CRCL channel is included because the USCIS page names it for civil rights complaints. The link on the USCIS page is https://www.dhs.gov/file-civil-rights-complaint, which redirects to the URL used here; the actual portal is https://engage.dhs.gov/crcl-complaint (see the dhs entry). MAIL, NOT USED AS A CHANNEL: the page's 'Contact Information' block lists 'Section 508 Coordinator, U.S. Citizenship and Immigration Services, Office of Information Technology, 5900 Capital Gateway Drive (MS #2250), Camp Springs, MD 20588-0009'. It is not described as a complaint address, so I left it in notes. FILING WINDOW: the USCIS page gives no deadline; the 180 days is from the DHS-wide 6 CFR 15.70(d)(3), which applies to all DHS-conducted programs (15.2). PM: GSA lists only Kenneth S. Moser for USCIS. The USCIS page names no person. Time: about 1 minute (wall-clock estimate; the whole batch took about 15 minutes of fetching plus drafting)."
+    },
+    {
+      "id": "dhs-fema",
+      "name": "Federal Emergency Management Agency (Department of Homeland Security)",
+      "routingLevel": "bureau",
+      "parent": "Department of Homeland Security",
+      "domains": [
+        "fema.gov"
+      ],
+      "statementUrl": "https://www.fema.gov/accessibility",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "FEMAWebTeam@fema.dhs.gov",
+          "url": null,
+          "instructionsQuote": "If you have feedback or concerns related to the accessibility of any content on this website, please contact: FEMAWebTeam@fema.dhs.gov. Please indicate:",
+          "source": "https://www.fema.gov/about/offices/information-technology/section-508"
+        },
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "fema-section508@fema.dhs.gov",
+          "url": null,
+          "instructionsQuote": "If you have a specific request or concern regarding this webpage or FEMA.gov, email your inquiry to fema-section508@fema.dhs.gov.",
+          "source": "https://www.fema.gov/accessibility"
+        },
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "FEMA-OCAO-ICD@fema.dhs.gov",
+          "url": "https://www.fema.gov/about/civil-rights/survivors/complaint",
+          "instructionsQuote": "To start the process of filing an external civil rights complaint, you must contact the FEMA Office of Civil Rights (OCR) by email, phone, or mail.",
+          "source": "https://www.fema.gov/about/civil-rights/survivors/complaint"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "FEMA Integration and Coordination Division, 500 C Street, SW, 4th Floor – 4SW-0915, Washington, DC 20472-3535",
+          "url": "https://www.fema.gov/about/civil-rights/survivors/complaint",
+          "instructionsQuote": "To start the process of filing an external civil rights complaint, you must contact the FEMA Office of Civil Rights (OCR) by email, phone, or mail.",
+          "source": "https://www.fema.gov/about/civil-rights/survivors/complaint"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-44/section-16.170",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. The agency may extend this time period for good cause.",
+      "phone": {
+        "number": "1-800-621-3362",
+        "label": "FEMA Helpline, general questions about disaster assistance (711 or Video Relay Service available)",
+        "source": "https://www.fema.gov/about/contact"
+      },
+      "pm": {
+        "name": "Janice Fenlason",
+        "email": "janice.fenlason@fema.dhs.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.fema.gov/accessibility",
+        "https://www.fema.gov/about/offices/information-technology/section-508",
+        "https://www.fema.gov/about/organization/equal-rights/complaint",
+        "https://www.fema.gov/about/offices/civil-rights/external",
+        "https://www.fema.gov/about/civil-rights/survivors/complaint",
+        "https://www.fema.gov/about/contact",
+        "https://www.ecfr.gov/current/title-44/section-16.170",
+        "https://www.ecfr.gov/current/title-6/section-15.70",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: FEMA handles formal 508 complaints itself through its Office of Civil Rights (OCR), so this is a separate 'bureau' entry. FEMA's Section 508 Program page (Last updated March 1, 2022) says: 'If you believe the Information and Communication Technology (ICT) used by FEMA does not comply with Section 508 of the Rehabilitation Act, you may: File a Section 508 complaint by contacting the Office of Equal Rights; Call the Office of Equal Rights to file a complaint at 202-646-3535'. The 'Office of Equal Rights' link (/about/organization/equal-rights/complaint) redirects to the External Civil Rights Division page (Last updated May 4, 2026). FEMA's OCR page says 'The Office of Civil Rights was formerly known as the Office of Equal Rights. The name changed May 1, 2024.' Complaint email and mail in channels come from the 'Filing a Complaint' page (Last updated June 16, 2026), which is the step-by-step page and the newest. That page is about civil rights complaints in general and never says 'Section 508'. It also says 'Discriminatory incidents must be reported to OCR within 180 days of the alleged discriminatory act.' MAJOR CONFLICTS, FEMA civil rights contacts (a human must pick one): (1) Emails: complaint page FEMA-OCAO-ICD@fema.dhs.gov; ECRD page shows link text FEMA-OCR-ECRD@fema.dhs.gov but its mailto href is FEMA-CivilRightsOffice@fema.dhs.gov; OCR/accessibility page FEMA-OCR@fema.dhs.gov; Contact Us page lists 'Civil Rights Resource Line ... FEMA-OCR-ECRD@fema.dhs.gov' and 'Office of Civil Rights ... 202-212-3535 ... FEMA-CivilRights@FEMA.DHS.gov'. (2) Mail recipient: complaint page says 'FEMA Integration and Coordination Division'; ECRD and OCR pages say 'Office of Civil Rights', same street address (500 C Street, SW, 4th Floor – 4SW-0915, Washington, D.C. 20472-3535). 44 CFR 16.170(c) still says 'Director of the Office of Equal Rights, Room 810, Federal Emergency Management Agency, 500 C Street, SW., Washington, DC 20472'. (3) Phones: 508 page 202-646-3535 (Office of Equal Rights); Civil Rights Resource Line (833) 285-7448 (press 1 English, 2 Spanish; 711 or VRS) on the complaint, ECRD and OCR pages; Contact Us also lists 202-212-3535 for OCR. FEEDBACK INBOXES ALSO CONFLICT: the 508 page uses FEMAWebTeam@fema.dhs.gov for website accessibility feedback and fema-accessibility@fema.dhs.gov for 508 program questions; the accessibility section of the OCR page uses fema-section508@fema.dhs.gov and also says 'Report FEMA.gov accessibility issues to the FEMA Web Team' (FEMAWebTeam@fema.dhs.gov). fema-accessibility@ is left in notes only. STATEMENT URL: the footer 'Accessibility' link is https://www.fema.gov/accessibility, which redirects to https://www.fema.gov/about/offices/civil-rights#accessibility (Last updated January 6, 2026). That OCR page also links a 508 overview at /about/offices/information-technology/508, which I did not open; the page I read is /section-508. The old guess URL /about/website-information/accessibility is 404. FILING WINDOW: 44 CFR part 16 is FEMA's own federally-conducted Section 504 rule ('agency' in Title 44 chapter I); 16.170(d) gives 180 days. The DHS-wide 6 CFR 15.70(d)(3) also gives 180 days and on its face covers all DHS programs, so there is no conflict on the number. ODDITY: FEMA's accessibility section cites '45 C.F.R. Part 85' (the HHS rule) as Section 504's implementing regulation; it cites neither 44 CFR part 16 nor 6 CFR part 15. PHONE: the FEMA Helpline (1-800-621-3362) is disaster-assistance specific. The Contact Us page also gives 'General FEMA Questions 202-646-2500'. The OCR page adds 'Monday through Friday 9 a.m. to 5 p.m. ET', and the complaint page adds 'Monday through Friday 9:00 a.m. to 5:00 p.m.'. PM: GSA lists Janice Fenlason for FEMA; EMI and USFA are listed separately. FETCHING: fema.gov returns HTTP 403 to plain curl, so all FEMA pages were read through a scraping service. Quotes were checked by eye against the scraped markdown, not by script. Time: about 3 minutes (wall-clock estimate; the whole batch took about 15 minutes of fetching plus drafting)."
+    },
+    {
+      "id": "ed",
+      "name": "Department of Education (including Federal Student Aid)",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "ed.gov",
+        "studentaid.gov"
+      ],
+      "statementUrl": "https://www.ed.gov/about/ed-overview/required-notices/website-policies/accessibility-statement",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "ITAPSupport@ed.gov",
+          "url": null,
+          "instructionsQuote": "If you experience difficulty accessing any resources or content on this site, please contact us at ITAPSupport@ed.gov and include:",
+          "source": "https://www.ed.gov/about/ed-overview/required-notices/website-policies/accessibility-statement"
+        },
+        {
+          "type": "webform",
+          "purpose": "feedback",
+          "address": null,
+          "url": "https://studentaid.gov/help-center/contact",
+          "instructionsQuote": "If you have feedback or a concern related to accessibility of any content on this website, please contact us.",
+          "source": "https://studentaid.gov/notices"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-34/section-105.41",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. The Department may extend this time period for good cause.",
+      "phone": {
+        "number": "1-800-433-3243",
+        "label": "Federal Student Aid main phone, 1-800-4FED-AID (TTY 1-800-730-8913)",
+        "source": "https://www.ed.gov/about/contact-us"
+      },
+      "pm": null,
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.ed.gov/about/ed-overview/required-notices/website-policies/accessibility-statement",
+        "https://studentaid.gov/notices",
+        "https://studentaid.gov/help-center/contact",
+        "https://www.ed.gov/about/contact-us",
+        "https://www.ecfr.gov/current/title-34/section-105.41",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: Federal Student Aid (studentaid.gov) has no formal 508 complaint path. Its 'Privacy, FOIA, and Notices' page, Accessibility section, sends people to the general Contact Us page ('please contact us'). That page is a list of contact centers plus a 'Submit Feedback' button and does not mention accessibility. Whatever formal path exists is at the department level, so this is one 'department' entry covering both domains. The FSA notice links 'Section 508 of the Rehabilitation Act of 1973 (as amended)' to https://www2.ed.gov/notices/accessibility/index.html, which returned HTTP 403 to curl; I did not read it. The old guess URL studentaid.gov/help-center/answers/article/accessibility is a 'Page Not Found'. PURPOSE CALL, NEEDS HUMAN REVIEW: ED's accessibility statement (Page Last Reviewed: December 29, 2025) puts ITAPSupport@ed.gov under the heading 'Available complaint processes', so I marked it 'complaint' because that is how ED labels it. But the text reads like a help desk ('If you experience difficulty accessing ...'). It does not use the words 'Section 508 complaint', gives no deadline, and does not describe an investigation. It may really be a feedback channel. ED names no other 508 complaint path. MAIL, REGULATION ONLY: 34 CFR 105.41(c) says 'The Deputy Under Secretary for Management is responsible for coordinating implementation of this section. Complaints may be sent to the U.S. Department of Education, Office of Management, Federal Building No. 6, 400 Maryland Avenue SW., Washington, DC 20202.' No ED web page I read repeats this, and the office name may be outdated, so it is not a channel. NOT USED: ED's Office for Civil Rights (ocr@ed.gov, 1-800-421-3481, complaint form at /laws-and-policy/civil-rights-laws/file-complaint) is on the Contact Us page as the 'Civil Rights Hotline' to 'Report education discrimination'. As far as I can tell from that wording it covers discrimination by schools, not ED's own websites. I found no ED text routing 508 complaints about ED's own ICT to OCR, and did not use it. Other ED sub-sites (rsa.ed.gov, civilrightsdata.ed.gov) show Section508@ed.gov in search snippets; I did not open them. PM, NULL: the GSA listing has a 'Department of Education (ED)' heading with no names under it (page 'Reviewed/Updated: August 2026'). ED's own statement says 'Denise McGland can answer any questions about our implementation of 508 policy or guidelines', linking denise.mcgland@ed.gov. Not used, because pm must come from GSA. PHONE: ED's Contact Us page (Page Last Reviewed April 1, 2026) has no general ED help line. The FSA line is the main one listed there and fits studentaid.gov tasks. FETCHING: ed.gov returns HTTP 403 to curl, and studentaid.gov is a JavaScript app, so both were read through a scraping service and quotes were checked by eye. Time: about 2 minutes (wall-clock estimate; the whole batch took about 15 minutes of fetching plus drafting)."
+    },
+    {
+      "id": "dol",
+      "name": "Department of Labor",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "dol.gov"
+      ],
+      "statementUrl": "https://www.dol.gov/general/aboutdol/accessibility",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "508Matters@dol.gov",
+          "url": null,
+          "instructionsQuote": "Any individual with a disability who experiences difficulty accessing information on any DOL website should contact the DOL Section 508 Program Office (headed by DOL 508 Program Manager Brandon Jubar) by sending an email message to 508Matters@dol.gov.",
+          "source": "https://www.dol.gov/general/aboutdol/accessibility"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "Director, Civil Rights Center, ATTENTION: Office of External Enforcement, U.S. Department of Labor, 200 Constitution Ave NW, Room N-4123, Washington, DC 20210",
+          "url": "https://www.dol.gov/agencies/oasam/centers-offices/civil-rights-center/external/how-to-file-complaint",
+          "instructionsQuote": "Complaints may be submitted to CRC in the following ways:",
+          "source": "https://www.dol.gov/agencies/oasam/centers-offices/civil-rights-center/external/how-to-file-complaint"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-29/section-33.12",
+      "filingWindowQuote": "All complaints must be filed within 180 days of the alleged act of discrimination. The Director may extend this time period for good cause.",
+      "phone": {
+        "number": "1-866-487-2365",
+        "label": "DOL National Contact Center, General Inquiries, 1-866-4-USA-DOL; Monday to Friday, 8 a.m. to 8 p.m. ET (TRS: dial 7-1-1)",
+        "source": "https://www.dol.gov/general/contact/contact-phone-call-center"
+      },
+      "pm": {
+        "name": "Eric W. Wright",
+        "email": "wright.eric.w@dol.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.dol.gov/general/aboutdol/accessibility",
+        "https://www.dol.gov/agencies/oasam/centers-offices/civil-rights-center/external/how-to-file-complaint",
+        "https://www.dol.gov/agencies/oasam/centers-offices/civil-rights-center/about",
+        "https://www.dol.gov/general/contact",
+        "https://www.dol.gov/general/contact/contact-phone-call-center",
+        "https://www.ecfr.gov/current/title-29/section-33.12",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: DOL's accessibility statement (Last updated: 1/22/2025) sends access problems to 508Matters@dol.gov and, for complaints, says only: 'If you are looking to obtain more information related to the complaint process, please contact the Civil Rights Center at (202) 693-6500.' It does not name a filing address. The Civil Rights Center (CRC) 'About Us' page says its Office of External Enforcement enforces 'Sections 504 and 508 of the Rehabilitation Act of 1973, as amended' for, among others, 'programs conducted by, DOL'. So the formal channel is CRC's external complaint intake, and routingLevel is 'department'. AMBIGUITY: CRC's 'How to File a Discrimination Complaint' page is written mostly for complaints against recipients of DOL funds (state and local workforce programs). Its mail and fax instructions are generic, and it does not mention complaints about DOL's own ICT. The mail channel is the best match I found, not an explicit 508 instruction. That page also says: 'An initial complaint filed directly with CRC must be filed within 180 days of the alleged discrimination.' FAX (no fax channel type): 'Faxed to 202-693-6505, ATTENTION: Office of External Enforcement (limit of 15 pages)'. CRC help for people who need auxiliary aids: CRCExternalComplaints@dol.gov or 202-693-6500. The page links a 'Complaint Information Form' (DL1-2014A.pdf), which I did not open. REGULATION: 29 CFR 33.12(c) names 'the Director, Directorate of Civil Rights (DCR) ... 200 Constitution Avenue, NW., Room N-4123'. That is the same room as the CRC page, under an older office name. Unlike the DOJ-model rules, 33.12(d) says 'All complaints' (not 'complete complaints'). PM CONFLICT: GSA lists Eric W. Wright (wright.eric.w@dol.gov). DOL's statement (dated 1/22/2025) names 'DOL 508 Program Manager Brandon Jubar', so the DOL page is probably stale. The 508Matters quote includes that name verbatim, so the UI may want to trim it. SECOND FEEDBACK ADDRESS: DOL's Contact Us page says 'Report accessibility problems, site navigation issues, broken links, or other technical questions.' linking webmaster@dol.gov. Left in notes. NOT OPENED: beta.dol.gov/accessibility-statement (seen in search results only). The old guess URL dol.gov/general/accessibility is 404. FETCHING: dol.gov returns 403 to curl, so it was read through a scraping service and quotes were checked by eye. Time: about 2 minutes (wall-clock estimate; the whole batch took about 15 minutes of fetching plus drafting)."
+    },
+    {
+      "id": "usda",
+      "name": "Department of Agriculture",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "usda.gov"
+      ],
+      "statementUrl": "https://www.usda.gov/accessibility-statement",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "Section508-ocio@usda.gov",
+          "url": null,
+          "instructionsQuote": "If you wish to provide feedback on the accessibility of any content on this or any USDA website, please email Section 508 Program Manager Angela Williams at Section508-ocio@usda.gov or the 508 Accessibility Feedback email box at 508accessibilityfeedback@usda.gov. If applicable, include the web address (URL) and the specific problems you encountered.",
+          "source": "https://www.usda.gov/accessibility-statement"
+        },
+        {
+          "type": "email",
+          "purpose": "feedback",
+          "address": "508accessibilityfeedback@usda.gov",
+          "url": null,
+          "instructionsQuote": "If you wish to provide feedback on the accessibility of any content on this or any USDA website, please email Section 508 Program Manager Angela Williams at Section508-ocio@usda.gov or the 508 Accessibility Feedback email box at 508accessibilityfeedback@usda.gov. If applicable, include the web address (URL) and the specific problems you encountered.",
+          "source": "https://www.usda.gov/accessibility-statement"
+        },
+        {
+          "type": "webform",
+          "purpose": "complaint",
+          "address": null,
+          "url": "https://www.usda.gov/oascr/program-complaints",
+          "instructionsQuote": "You can now file a complaint directly through the USDA's Program Discrimination Complaint Portal. This convenient, secure portal allows you to submit your complaint electronically.",
+          "source": "https://www.usda.gov/about-usda/general-information/staff-offices/office-assistant-secretary-civil-rights/how-file-usda-discrimination-complaint/how-file-program-discrimination-complaint"
+        },
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "program.intake@usda.gov",
+          "url": null,
+          "instructionsQuote": "To file a program discrimination complaint, you may email the required details of the complaint to program.intake@usda.gov.",
+          "source": "https://www.usda.gov/about-usda/general-information/staff-offices/office-assistant-secretary-civil-rights/how-file-usda-discrimination-complaint/how-file-program-discrimination-complaint"
+        },
+        {
+          "type": "mail",
+          "purpose": "complaint",
+          "address": "U.S. Department of Agriculture, Office of the Assistant Secretary for Civil Rights, 1400 Independence, Ave, SW, Mail Stop 9410, Washington, DC 20250-9410",
+          "url": "https://www.usda.gov/sites/default/files/documents/ad-3027.pdf",
+          "instructionsQuote": "You are not required to use this form to file a discrimination complaint, you may send a letter or email instead of this form.",
+          "source": "https://www.usda.gov/sites/default/files/documents/ad-3027.pdf"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-7/section-15e.170",
+      "filingWindowQuote": "All complete complaints must be filed within 180 days of the alleged act of discrimination. The agency may extend this time period for good cause.",
+      "phone": {
+        "number": "(202) 720-2791",
+        "label": "USDA Information Hotline",
+        "source": "https://www.fna.usda.gov/about/contact-us"
+      },
+      "pm": {
+        "name": "Angela Williams",
+        "email": "angela.williams@usda.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.usda.gov/accessibility-statement",
+        "https://www.usda.gov/about-usda/general-information/staff-offices/office-assistant-secretary-civil-rights/how-file-usda-discrimination-complaint/how-file-program-discrimination-complaint",
+        "https://www.usda.gov/sites/default/files/documents/ad-3027.pdf",
+        "https://www.fna.usda.gov/about/contact-us",
+        "https://snaped.fna.usda.gov/contact-us",
+        "https://www.ecfr.gov/current/title-7/section-15e.170",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: this is the clearest of the batch. The USDA statement (Last updated: June 2025) has a section 'How to File a Complaint Alleging a Section 508 Violation': 'Individuals with disabilities seeking to initiate a discrimination complaint alleging a Section 508 violation, must file a complaint within 180 days of the incident that gave rise to the complaint with the Office of the Assistant Secretary for Civil Rights, Center for Civil Rights Enforcement.' It links the OASCR program discrimination complaint page. The same statement says 'The statute requires federal agencies to process Section 508 complaints according to the same complaint procedures used to process Section 504 complaints.' It also sets an escalation path: the 508 Program Office confirms a request within 1 business day and engages within 3, and 'If no reasonable alternative access can be provided, a requestor may file a complaint alleging a Section 508 violation.' The feedback emails are also the route for the 'How to Request Accessibility or Report a Section 508 Violation' process. CHANNELS: the portal, email, and mail come from OASCR's 'How to File a Program Discrimination Complaint' page (the link redirects to the longer .../how-file-usda-discrimination-complaint/... URL used as source) and from form AD-3027 (OMB 0508-0002; no revision date seen in the text I extracted). The portal URL (/oascr/program-complaints) redirects to /about-usda/general-information/staff-offices/how-electronically-submit-program-discrimination-complaint, which returned HTTP 403 'Access denied' to my scraper, so I never saw the portal itself. AD-3027 lists the 'Authorities' as including 'Sections 504 and 508 of the Rehabilitation Act of 1973'. AD-3027 deadline wording: 'A program discrimination complaint must be filed within 180 days from the date you knew or should have known of the alleged discrimination unless the time for filing is extended by USDA.' ADDRESS FORMATTING: the form's mailing line reads '1400 Independence, Ave, SW' (stray comma, copied exactly). Its Paperwork Reduction Act paragraph gives '1400 Independence Avenue, SW, Mail Stop 9410, DC 20250-9410'. The OASCR page itself gives no street address. CCRE Customer Service Unit: toll-free (866) 632-9992. REGULATION CONFLICT: 7 CFR 15e.170(c) (Title 7 eCFR 2026-10-01) says complaints go to the 'Office of Advocacy and Enterprise, U.S. Department of Agriculture, Washington, DC 20250', an office name that no longer matches OASCR. The 180-day window matches. PHONE: usda.gov/contact-us returned 403. The 'USDA Information Hotline: (202) 720-2791' comes from the Food and Nutrition Administration contact page. snaped.fna.usda.gov shows AskUSDA as '1-833-ONE-USDA' but its tel: link dials 1-800-663-8732, so the two do not match; I did not use that number. ask.usda.gov returned 503. Alternative-formats line: USDA TARGET Center (202) 720-2600 (voice/TTY), target-center@usda.gov (accessibility statement). PM: GSA lists three USDA Agencywide names with no designation: Angela Williams, Sarah Reed, Bernadette McGhee. The pm field holds Angela Williams because USDA's own statement names her as 'Section 508 Program Manager'. Many USDA sub-agencies (FS, FSA, FNS, etc.) have their own PMs on GSA and were not researched. FETCHING: usda.gov returns 403 to curl, so it was read through a scraping service, and AD-3027 through the scraper's PDF parser. Quotes were checked by eye. Time: about 2 minutes (wall-clock estimate; the whole batch took about 15 minutes of fetching plus drafting)."
+    },
+    {
+      "id": "hud",
+      "name": "Department of Housing and Urban Development",
+      "routingLevel": "department",
+      "parent": null,
+      "domains": [
+        "hud.gov"
+      ],
+      "statementUrl": "https://www.hud.gov/accessibility",
+      "channels": [
+        {
+          "type": "email",
+          "purpose": "complaint",
+          "address": "508@hud.gov",
+          "url": null,
+          "instructionsQuote": "To help us identity your issue, include the URL of the page where you encountered an accessibility problem. Please do not provide your specific medical or disability-related information with this request.",
+          "source": "https://www.hud.gov/accessibility"
+        }
+      ],
+      "filingWindowDays": 180,
+      "filingWindowSource": "https://www.ecfr.gov/current/title-24/section-9.170",
+      "filingWindowQuote": "All complete complaints shall be filed within 180 days of the alleged act of discrimination. The agency may extend this time period for good cause.",
+      "phone": {
+        "number": "(800) 955-2232",
+        "label": "HUD Customer Service Center (Monday – Friday, 9:00 a.m. – 5:00 p.m. EST); TTY/TRS: dial 711",
+        "source": "https://www.hud.gov/contactus"
+      },
+      "pm": {
+        "name": "GiaVonni Hester",
+        "email": "giavonni.p.hester@hud.gov",
+        "source": "https://www.section508.gov/tools/program-manager-listing/"
+      },
+      "lastChecked": null,
+      "checkedBy": null,
+      "draftedBy": "Claude, 2026-10-03",
+      "status": "draft-unverified",
+      "sources": [
+        "https://www.hud.gov/accessibility",
+        "https://www.hud.gov/contactus",
+        "https://www.ecfr.gov/current/title-24/section-9.170",
+        "https://www.section508.gov/tools/program-manager-listing/"
+      ],
+      "notes": "ROUTING: HUD's accessibility page (Date Statement Last Reviewed: July 12, 2024) has a 'Feedback and Complaints' section. It says 'Please contact us via email if you:' and lists four bulleted reasons, the last being 'Would like to file a complaint about a violation of Section 508 by HUD.' The one inbox, 508@hud.gov, handles both feedback and formal 508 complaints. I marked it 'complaint' because HUD names it as the complaint path; it is also the feedback path. The UI may need to show it both ways. The instructionsQuote is the sentence right after the bullets, which is the only instruction text. It keeps HUD's typo 'identity' for 'identify'. EMAIL OBFUSCATION: hud.gov uses Cloudflare email protection, so the addresses appear only as encoded hrefs. I decoded them: '508@hud.gov' (Feedback and Complaints link, and the Section 508 section), and '508@HUD.gov' (one more encoded instance). The link on 'Giavonni Hester, HUD's Section 508 program manager' also decodes to 508@hud.gov, not a personal address. HUD employee reasonable accommodation: reasonableaccommodationbranch@hud.gov (not a public 508 channel). REGULATION ONLY, NOT A CHANNEL: 24 CFR 9.170(d) says 'Persons may submit complete complaints to the Assistant Secretary for Fair Housing and Equal Opportunity, 451 Seventh St., SW., Washington, DC 20410, or to any HUD Area Office.' 9.103 defines the Responsible Official as the Assistant Secretary for FHEO. The accessibility page never mentions FHEO for 508 complaints. It sends Fair Housing complaints to a separate 'Report Housing Discrimination' site, which covers housing discrimination, not HUD's own ICT. A human should decide whether to add FHEO as a formal 504 path. 9.170(d) also says mailed complaints are 'deemed filed on the date it is postmarked'. PHONE: hud.gov/contactus has no general HUD help line. The Customer Service Center number appears under 'Current HUD-assisted Renters' (and as the Rental Assistance number). The site footer shows 'T: (202) 402-3815' under the HQ address, with no label. PM: GSA spells it 'GiaVonni Hester' (giavonni.p.hester@hud.gov); HUD's page spells it 'Giavonni Hester'. FETCHING: hud.gov answered plain curl. Quotes were taken from my own HTML-to-text conversion. Time: about 1 minute (wall-clock estimate; the whole batch took about 15 minutes of fetching plus drafting)."
+    }
+  ]
+}

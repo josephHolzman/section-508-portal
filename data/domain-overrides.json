@@ -1,0 +1,10 @@
+{
+  "note": "Federal sites the Federal Website Index lists without an agency, or misses. Keyed by host; checked by hand. Each needs a source.",
+  "hosts": {
+    "usps.com": {
+      "agency": "United States Postal Service",
+      "bureau": "",
+      "source": "Federal Website Index lists usps.com with a blank agency (commit 80180f5f). usps.com is the Postal Service's public site; covered by 29 U.S.C. 794d(a)(1)(A)."
+    }
+  }
+}

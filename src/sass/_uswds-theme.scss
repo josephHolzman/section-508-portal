@@ -1,0 +1,69 @@
+/*
+----------------------------------------
+Barrier Report theme: USWDS 3.14.0 settings
+----------------------------------------
+Indigo-cool primary, gray-cool neutrals, Public Sans everywhere.
+Every text pair is checked against 4.5:1 in the spec. Keep color
+changes to system tokens 50+ grades apart (the USWDS "magic number").
+*/
+
+@use "uswds-core" with (
+  $theme-show-notifications: false,
+  $theme-show-compile-warnings: false,
+
+  // Typography mirrors VA.gov (VA Design System primitives, measured
+  // 2026-10-03): Bitter headings, Source Sans Pro body, Roboto Mono code.
+  // Fonts are self-hosted (CSP: font-src 'self'). Source Sans Pro and
+  // Roboto Mono ship with USWDS; Bitter comes from @fontsource/bitter (OFL).
+  $theme-font-path: "../fonts",
+  $theme-image-path: "../img",
+  // Bitter at the base cap-height, so USWDS doesn't rescale it: VA sets
+  // heading sizes in absolute rem (see src/styles/type.css).
+  $theme-typeface-tokens: (
+    "bitter": (
+      display-name: "Bitter",
+      cap-height: 362px,
+    ),
+  ),
+  $theme-font-type-serif: "bitter",
+  $theme-font-serif-custom-stack: (Georgia, Cambria, "Times New Roman", Times, serif),
+  $theme-font-type-sans: "source-sans-pro",
+  $theme-font-sans-custom-stack: ("Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif),
+  $theme-font-type-mono: "roboto-mono",
+  $theme-font-role-heading: "serif",
+  $theme-font-role-alt: "serif",
+  $theme-font-role-body: "sans",
+  $theme-font-role-ui: "sans",
+
+  // Body: Source Sans Pro "sm", which USWDS normalizes to 1.06rem (17px),
+  // VA's body size; line height 1.5, as measured on va.gov.
+  $theme-body-font-size: "sm",
+  $theme-body-line-height: 4,
+  $theme-style-body-element: true,
+
+  // Color
+  $theme-color-base-family: "gray-cool",
+  $theme-color-primary-family: "indigo-cool",
+  $theme-color-primary-lighter: "indigo-cool-5",
+  $theme-color-primary-light: "indigo-cool-30",
+  $theme-color-primary: "indigo-cool-60",
+  $theme-color-primary-vivid: "indigo-cool-60",
+  $theme-color-primary-dark: "indigo-cool-70",
+  $theme-color-primary-darker: "indigo-cool-80",
+  $theme-link-color: "primary",
+  $theme-link-visited-color: "violet-70v",
+  $theme-link-hover-color: "primary-dark",
+  $theme-link-active-color: "primary-darker",
+
+  // Focus: blue-60v (#005ea2) clears 3:1 against every surface the tool
+  // uses: white 6.72, gray-cool-3 6.21, checked tile 5.80, cyan-5 6.06,
+  // yellow-5 6.02, red-warm-10 5.40. The spec's blue-40v cleared 3:1 only on
+  // white (2.57-2.95 on the others). Against the indigo button it is ~1:1,
+  // so the 2px white offset is what separates them: never set it to 0.
+  $theme-focus-color: "blue-60v",
+  $theme-focus-width: 0.5,
+  $theme-focus-offset: "2px",
+
+  // Readable measure for long hints.
+  $theme-text-measure: 4
+);

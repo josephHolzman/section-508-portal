@@ -1,0 +1,201 @@
+// The few compositions USWDS doesn't provide, built from its tokens.
+
+@use "uswds-core" as *;
+@use "tokens" as t;
+
+.context-line {
+  color: t.$muted;
+}
+
+.required-mark {
+  color: t.$error;
+}
+
+.optional {
+  font-weight: 400;
+}
+
+// Revealed field sits directly below its choice, indented to show it belongs to it.
+.conditional-field {
+  border-left: units(0.5) solid t.$rule;
+  margin-left: units(2.5);
+  padding-left: units(2);
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+// Error summary: an error alert that takes focus, so give it a visible ring.
+.error-summary:focus {
+  outline: units(0.5) solid t.$focus;
+  outline-offset: 2px;
+}
+
+.error-summary__list {
+  margin-top: units(1);
+
+  li + li {
+    margin-top: units(0.5);
+  }
+
+  a {
+    font-weight: 700;
+  }
+}
+
+// Step 1: the matched agency, read in order: intro, name, address.
+.agency-card {
+  background-color: t.$band;
+  border-left: units(1) solid t.$primary;
+  padding: t.$inset-m;
+
+  p {
+    margin: 0;
+  }
+}
+
+.agency-card__intro,
+.agency-card__host {
+  color: t.$muted;
+}
+
+.agency-card__name {
+  font-family: var(--vads-font-family-heading);
+  font-size: var(--vads-font-size-lg);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+// Review: a summary list (USWDS has none), built on dl/dt/dd.
+.review-list {
+  margin: 0;
+  border-top: 1px solid t.$rule;
+
+  dd {
+    margin: 0;
+  }
+
+  dt {
+    flex: 1 1 units("card-lg");
+    font-weight: 700;
+  }
+}
+
+.review-list__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: units(0.5) units(3);
+  padding: t.$inset-s 0;
+  border-bottom: 1px solid t.$rule;
+}
+
+.review-list__value {
+  flex: 2 1 units("mobile");
+  min-width: 0;
+  overflow-wrap: anywhere;
+  white-space: pre-line;
+}
+
+.review-list__action {
+  flex: 0 0 auto;
+}
+
+// The complaint as it will be sent: plain text, line breaks kept.
+.complaint-preview {
+  background-color: t.$band;
+  border: 1px solid t.$rule;
+  padding: t.$inset-m;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: var(--vads-font-line-height-5);
+}
+
+// Send
+.complaint-text.usa-textarea {
+  max-width: none;
+  height: auto;
+  min-height: units("card-lg");
+  line-height: var(--vads-font-line-height-5);
+}
+
+.send-status {
+  min-height: 1.5em;
+  margin-top: t.$stack-s;
+  font-weight: 700;
+}
+
+.channel-quote {
+  color: t.$muted;
+}
+
+.mail-address {
+  font-style: normal;
+  white-space: pre-line;
+}
+
+// "Clear my answers" lives apart from navigation (USWDS: don't mix
+// destructive and non-destructive actions in one group).
+.clear-section {
+  margin-top: t.$section;
+  padding-top: t.$stack-l;
+  border-top: 1px solid t.$rule;
+}
+
+// Confirmation dialog (native <dialog>: focus trap, Escape, inert page).
+.confirm-dialog {
+  max-width: units("mobile-lg");
+  width: calc(100% - #{units(4)});
+  border: 0;
+  border-radius: radius("md");
+  padding: t.$inset-l;
+  color: t.$ink;
+
+  &::backdrop {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+@media (forced-colors: active) {
+  .conditional-field,
+  .agency-card {
+    border-left-color: CanvasText;
+  }
+
+  .confirm-dialog {
+    border: 2px solid CanvasText;
+  }
+}
+
+// Long unbroken strings (email addresses, subject lines) wrap at 320px.
+.usa-process-list,
+.channel-quote,
+.usa-summary-box__text,
+.usa-alert__text {
+  overflow-wrap: anywhere;
+}
+
+.print-only {
+  display: none;
+}
+
+@media print {
+  .usa-skipnav,
+  .usa-site-alert,
+  .site-header,
+  .site-footer,
+  .site-page > *:not(.print-only) {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block;
+    white-space: pre-wrap;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+}

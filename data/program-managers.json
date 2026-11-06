@@ -1,0 +1,4355 @@
+{
+  "source": "https://www.section508.gov/tools/program-manager-listing/",
+  "fetched": "2026-10-03",
+  "note": "Copied from GSA's listing; verify before publishing.",
+  "format": "Scraped from the page HTML (no CSV/JSON/API offered; page footer reads 'Reviewed/Updated: August 2026'). One entry per agency/component/subcomponent block. 'name' is the h2 department (or h3 small/independent agency) heading exactly as shown; 'component' is the h3 under a department ('Agencywide' blocks are stored with component null); 'subcomponent' is a bulleted bold item or h4 under a component; 'includes' lists bulleted sub-agencies shown under a block with no PM of their own; 'group' is the page section. Whitespace (tabs/double spaces) in names was collapsed to single spaces; spelling otherwise untouched. 'email' is the mailto href; 'emailAsDisplayed' appears only where the link text differs. The page shows no phone numbers, so every phone is null. Some 'managers' are shared mailboxes/helpdesks, listed as the page lists them.",
+  "extractionNotes": [
+    "Department of Education (ED), Office of Personnel Management (OPM), and several components (USDA IFSB, USDA TFAA, DoW CAP, FEMA USFA) are listed with no program manager; kept with an empty managers array.",
+    "Department of Energy (DOE): 'Ilir Angjeli' and 'Yohanna Freeman (Deputy)' are listed without email addresses; only the DOE Helpdesk has an email.",
+    "USDA Research, Education and Economics (REE): ARS and NASS are bulleted without a PM; Jimmy Nazario-Negron appears inside the NIFA bullet. Stored per the HTML structure (under NIFA); he may be intended for all of REE.",
+    "Federal Law Enforcement Training Center (FLETC) appears on the page as an h4 under FEMA (DHS); stored with component FEMA as the page structures it, although FLETC is not a FEMA component.",
+    "Commerce: Charlie Franz (listed under NTIS) has an ntia.doc.gov address and Todd McKeever (listed under NTIA) has an ntis.gov address; the page may have these swapped. Copied as shown.",
+    "Several displayed names differ from the email spelling (e.g. 'Casandra Taylor' / cassandra.taylor, 'Mivrat Sewadeh' / mirvat.sewadeh, 'Lois Mockbee' / lois.mockabee, 'Audre E. Azoulas' / audre.azuolas, 'Ida Shuler' / ida.yengoyan); copied as shown.",
+    "PHMSA: mailto href is t'mia.raynor@dot.gov (straight apostrophe) while link text uses a curly apostrophe.",
+    "FERC: the displayed line ends 'jun.park@ferc.gov.' (trailing period outside the link); email recorded without it."
+  ],
+  "agencies": [
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Angela Williams",
+          "email": "angela.williams@usda.gov",
+          "phone": null
+        },
+        {
+          "name": "Sarah Reed",
+          "email": "sarah.reed@usda.gov",
+          "phone": null
+        },
+        {
+          "name": "Bernadette McGhee",
+          "email": "bernadette.mcghee@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Agricultural Marketing Service (AMS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Tonia Canada",
+          "email": "tonia.canada@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Animal and Plant Health Inspection Service (APHIS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Tonia Canada",
+          "email": "tonia.canada@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Farm Production and Conservation Business Center (FPAC)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "includes": [
+        "Risk Management Agency"
+      ],
+      "managers": [
+        {
+          "name": "Karen Garrison",
+          "email": "karen.garrison@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Farm Service Agency (FSA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Karen Garrison",
+          "email": "karen.garrison@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Food, Nutrition and Consumer Services (FNCS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "includes": [
+        "Center for Nutrition Policy and Promotion (CNPP)",
+        "Food and Nutrition Service (FNS)"
+      ],
+      "managers": [
+        {
+          "name": "Elisha Owens",
+          "email": "elisha.owens@usda.gov",
+          "phone": null
+        },
+        {
+          "name": "Ronald Hodges",
+          "email": "ronald.hodges@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Food Safety and Inspection Service (FSIS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Kyna Fernandez",
+          "email": "kyna.fernandez@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Forest Service (FS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Dennis Lapcewich",
+          "email": "dennis.lapcewich@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Information Management Services Branch (IFSB)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": []
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "National Agricultural Statistics Service (NASS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Rich Holcomb",
+          "email": "rich.holcomb@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Natural Resources Conservation Service (NRCS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Karen Garrison",
+          "email": "karen.garrison@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Office of the Assistant Secretary for Civil Rights (OASCR)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Casandra Taylor",
+          "email": "cassandra.taylor@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Office of Budget and Program Analysis (OBPA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Tania Jones",
+          "email": "tania.jones@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Office of the Chief Economist (OCE)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Mivrat Sewadeh",
+          "email": "mirvat.sewadeh@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Office of the Chief Financial Officer (OCFO)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Patrice Poree",
+          "email": "patrice.poree@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Office of the Chief Information Officer (OCIO)",
+      "subcomponent": "CEC",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Rachel Stanton",
+          "email": "rachael.stanton@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Office of the Chief Information Officer (OCIO)",
+      "subcomponent": "Cybersecurity and Privacy Operations Center (CPOC)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Holly J. Becktstrom",
+          "email": "holly.beckstrom@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Office of Communications (OC)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Ben Weaver",
+          "email": "ben.weaver@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Office of Ethics",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Jordon Murphy",
+          "email": "jordon.murphy@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Office of General Council (OGC)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Jamie Lyons",
+          "email": "jamie.lyons@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Office of Hearings and Appeals (OHA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Angela Parham",
+          "email": "angela.parham@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Office of the Inspector General (OIG)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Louise Camalier",
+          "email": "louise.camalier@oig.usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Research, Education and Economics (REE)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "includes": [
+        "Agricultural Research Service (ARS)",
+        "National Agricultural Statistics Service (NASS)"
+      ],
+      "managers": []
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Research, Education and Economics (REE)",
+      "subcomponent": "National Institute of Food and Agriculture (NIFA)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Jimmy Nazario-Negron",
+          "email": "jimmy.nazario-negron@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Rural Development",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Ryan Schneider",
+          "email": "ryan.schneider@usda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Agriculture (USDA)",
+      "component": "Trade and Foreign Agricultural Affairs (TFAA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": []
+    },
+    {
+      "name": "Department of Commerce (DOC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Jennifer Jessup",
+          "email": "jjessup@doc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Commerce (DOC)",
+      "component": "Bureau of Economic Analysis (BEA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Alexander Minor",
+          "email": "alexander.minor@bea.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Commerce (DOC)",
+      "component": "Bureau of Industry and Security (BIS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Ida Mix",
+          "email": "ida.mix@bis.doc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Commerce (DOC)",
+      "component": "Bureau of the Census (CENSUS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "David Whittington",
+          "email": "david.j.whittington@census.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Commerce (DOC)",
+      "component": "Economic Development Administration (EDA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Alec Todd",
+          "email": "atodd@eda.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Commerce (DOC)",
+      "component": "International Trade Administration (ITA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Lois Mockbee",
+          "email": "lois.mockabee@trade.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Commerce (DOC)",
+      "component": "Minority Business Development Agency (MBDA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Brenda Jenkins",
+          "email": "bjenkins@doc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Commerce (DOC)",
+      "component": "National Institute of Standards and Technology (NIST)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Kathy Lynch",
+          "email": "kathy.lynch@nist.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Commerce (DOC)",
+      "component": "National Oceanic and Atmospheric Administration (NOAA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Jennifer Coletta",
+          "email": "jennifer.coletta@noaa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Commerce (DOC)",
+      "component": "National Technical Information Service (NTIS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Charlie Franz",
+          "email": "cfranz@ntia.doc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Commerce (DOC)",
+      "component": "National Telecommunications and Information Administration (NTIA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Todd McKeever",
+          "email": "tmckeever@ntis.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Commerce (DOC)",
+      "component": "National Telecommunications and Information Administration (NTIA)",
+      "subcomponent": "First Responder Network Authority (FirstNet)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Matthew Olenn",
+          "email": "matthew.olenn@firstnet.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Commerce (DOC)",
+      "component": "U.S. Patent and Trademark Office (USPTO)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Mark Reumann",
+          "email": "mark.reumann@uspto.gov",
+          "phone": null
+        },
+        {
+          "name": "Yuting Sun (Deputy)",
+          "email": "yuting.sun@uspto.gov",
+          "phone": null
+        },
+        {
+          "name": "Michael Jennings (Deputy)",
+          "email": "michael.jennings1@uspto.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Susan “Jen” Haggerty",
+          "email": "susan.j.haggerty2.civ@mail.mil",
+          "phone": null
+        },
+        {
+          "name": "Bethany Letalien (Deputy)",
+          "email": "bethany.l.letalien.ctr@mail.mil",
+          "phone": null
+        },
+        {
+          "name": "Cammie Truesdell (Deputy)",
+          "email": "cammie.r.truesdell.ctr@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Air Force",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Carlinda Lotson Miller",
+          "email": "carlinda.lotsonmiller.1@us.af.mil",
+          "phone": null
+        },
+        {
+          "name": "Mohamed Eltahir (Deputy)",
+          "email": "mohamed.eltahir.1.ctr@us.af.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Air Force",
+      "subcomponent": "Defense Equal Opportunity Management Institute (DEOMI)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Joleen Horton",
+          "email": "joleen.horton@us.af.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Army",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Lisa Wilcox",
+          "email": "lisa.g.wilcox3.civ@army.mil",
+          "phone": null
+        },
+        {
+          "name": "ARMY Section 508 Helpdesk",
+          "email": "usarmy.pentagon.hqda-cio.mbx.army-section-508-team@army.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Computer/Electronic Accommodations Program (CAP)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": []
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Advanced Research Projects Agency (DARPA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Tabatha Thompson",
+          "email": "tabatha.thompson@darpa.mil",
+          "phone": null
+        },
+        {
+          "name": "Tom Sakell (Deputy)",
+          "email": "thomas.sakell.ctr@darpa.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Contract Management Agency (DCMA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "William O’Brien (Acting)",
+          "email": "william.r.obrien69.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Counterintelligence and Security Agency (DCSA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Latondra Bryan",
+          "email": "latondra.w.bryan.civ@mail.mil",
+          "phone": null
+        },
+        {
+          "name": "Horace Russell Jr. (Deputy)",
+          "email": "horace.russell12.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Cyber Crime Center (DC3)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Stephen Johnson",
+          "email": "stephen.johnson@dc3.mil",
+          "phone": null
+        },
+        {
+          "name": "Jillian Langley",
+          "email": "jillian.langley.ctr@dc3.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Finance and Accounting Service (DFAS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Bryan Conway",
+          "email": "bryan.w.conway.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Health Agency (DHA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Ameenah Ghoston",
+          "email": "ameenah.a.ghoston.civ@health.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Human Resources Agency (DHRA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "A’Donna Hudson",
+          "email": "adonna.a.hudson.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Information Systems Agency (DISA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Fariba Beg",
+          "email": "disa.meade.io.mbx.digital-accessibility--section-508@mail.mil",
+          "phone": null
+        },
+        {
+          "name": "Corey Soesbee (Deputy)",
+          "email": "disa.meade.io.mbx.digital-accessibility--section-508@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Intelligence Agency (DIA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Darnyse Werts-Owens",
+          "email": "darnyse.werts-owens@dodiis.mil",
+          "phone": null
+        },
+        {
+          "name": "Chandra Smith (Deputy)",
+          "email": "chandra.smith3@dodiis.mil",
+          "phone": null
+        },
+        {
+          "name": "DIA IT Accessibility Program Office",
+          "email": "it_accessibility@dodiis.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Logistics Agency (DLA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Antonio Boston",
+          "email": "antonio.boston@dla.mil",
+          "phone": null
+        },
+        {
+          "name": "DLA Helpdesk",
+          "email": "508compliance@dla.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Microelectronics Activity (DMEA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "David Elliot",
+          "email": "david.s.elliott24.civ@mail.mil",
+          "phone": null
+        },
+        {
+          "name": "Kevin Butters",
+          "email": "kevin.f.butters.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense POW/MIA Accounting Agency (DPAA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Malachi J. Morgan",
+          "email": "malachi.j.morgan.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Security Cooperation Agency (DSCA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Jeffrey Troch",
+          "email": "jeffrey.l.troch.civ@mail.mil",
+          "phone": null
+        },
+        {
+          "name": "Joshua Myerson",
+          "email": "joshua.b.myerson.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Technical Information Center (DTIC)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Claudia Guidi",
+          "email": "claudia.guidi.civ@mail.mil",
+          "phone": null
+        },
+        {
+          "name": "DTIC Helpdesk",
+          "email": "dtic.belvoir.ocio.list.508-accessibility@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Technology Security Administration (DTSA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Matthew R. Sullivan",
+          "email": "matthew.r.sullivan22.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Defense Threat Reduction Agency (DTRA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Paul St. John",
+          "email": "paul.m.stjohn.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Department of War Information Activity (DWIA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "La Toya Rose",
+          "email": "latoya.v.rose.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Missile Defense Agency (MDA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Tom Hicks",
+          "email": "thomas.hicks@mda.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "National Defense University (NDU)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Irina Ryan",
+          "email": "irina.ryan.civ@ndu.edu",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "National Geospatial-Intelligence Agency (NGA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Kelali K. Dogbe",
+          "email": "kelali.k.dogbe@nga.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "National Guard Bureau (NGB)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Allen Pinckney Jr",
+          "email": "allen.pinckney3.civ@army.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "National Reconnaissance Office (NRO)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "John O. Adeika",
+          "email": "adeikajo@nro.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Christopher Julka",
+          "email": "christopher.a.julka@navy.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": "Bureau of Medicine and Surgery",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Michael Williams",
+          "email": "michael.a.williams1.mil@health.mil",
+          "phone": null
+        },
+        {
+          "name": "Brian Martin",
+          "email": "brian.k.martin4.civ@health.mil",
+          "phone": null
+        },
+        {
+          "name": "Francis Dada",
+          "email": "francis.a.dada.civ@health.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": "Bureau of Naval Personnel",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Bruce Shea",
+          "email": "bruce.e.shea@navy.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": "Naval Air Systems Command (NAVAIR)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Andrea Simonelli",
+          "email": "andrea.l.simonelli.civ@us.navy.mil",
+          "phone": null
+        },
+        {
+          "name": "Danny Snydeman",
+          "email": "daniel.p.snydeman.civ@us.navy.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": "Naval Education and Training Command (NETC)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Naomi Davis",
+          "email": "naomi.davis20.civ@us.navy.mil",
+          "phone": null
+        },
+        {
+          "name": "Robert Maguire (Deputy)",
+          "email": "robert.j.maguire18.ctr@us.navy.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": "Naval Facilities Engineering Systems Command",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Ryan Lee",
+          "email": "ryan.m.lee7.civ@us.navy.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": "Naval History and Heritage Command (NHHC)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Janee Price",
+          "email": "janee.r.price.civ@us.navy.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": "Naval Information Warfare Systems Command",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Darlene Shaw",
+          "email": "darlene.shaw@navy.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": "Naval Sea Systems Command (NAVSEA)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Charlotte Reines",
+          "email": "charlotte.reines@navy.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": "Naval Supply Systems Command (NAVSUP)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Ryan Celesnik",
+          "email": "ryan.s.celesnik.civ@us.navy.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": "Navy Reserve Forces Command",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Joel C. Stewart",
+          "email": "joel.c.stewart.civ@us.navy.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": "Office of Naval Research (HQ)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Curtis Pelzer",
+          "email": "curtis.pelzer.civ@us.navy.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": "Naval Research Laboratory (NRL)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Keith A. Rowher",
+          "email": "keith.a.rohwer.civ@us.navy.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Navy",
+      "subcomponent": "U.S. Pacific Fleet",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Sean Gano",
+          "email": "sean.k.gano2.civ@us.navy.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Office of the Secretary of War (OSW)",
+      "subcomponent": "Chief Digital and Artificial Intelligence Office (CDAO)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Daniel Holtzman",
+          "email": "daniel.c.holtzman.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Office of the Secretary of War (OSW)",
+      "subcomponent": "Defense Digital Service (DDS)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Charity M. Jantzen",
+          "email": "charity.m.jantzen.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Pentagon Force Protection Agency (PFPA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Vince R. Tur-Rojas",
+          "email": "vicente.r.tur-rojas2.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "United States Northern Command (USNORTHCOM)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Lt. Col. Matthew J. McAlister",
+          "email": "matthew.j.mcalister.mil@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "United States Southern Command (SOUTHCOM)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Michael Kennedy",
+          "email": "michael.b.kennedy.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "United States Space Command (USSPACECOM)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Adam Grasheim",
+          "email": "adam.grasheim.1@usspacecom.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "United States Special Operations Command (USSOCOM)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Lynor “Dee” Duncan",
+          "email": "lynor.duncan.civ@socom.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "United States Strategic Command (STRATCOM)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Kerri Marroquin",
+          "email": "kerri.l.marroquin.civ@mail.mil",
+          "phone": null
+        },
+        {
+          "name": "CIO Office Mailbox",
+          "email": "stratcom.offutt.j6.mbx.cio@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "United States Transportation Command (USTRANSCOM)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "USTRANSCOM Section 508 CIO Mailbox",
+          "email": "transcom.scott.tcj6.mbx.cio-section-508@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Warfighting Acquisition University (WarU)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Consuala Spencer",
+          "email": "consuala.spencer@waru.edu",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of War (DOW)",
+      "component": "Washington Headquarters Service (WHS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Tapan M. Suthar",
+          "email": "tapan.m.suthar.civ@mail.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Education (ED)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": []
+    },
+    {
+      "name": "Department of Energy (DOE)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Ilir Angjeli",
+          "email": null,
+          "phone": null
+        },
+        {
+          "name": "Yohanna Freeman (Deputy)",
+          "email": null,
+          "phone": null
+        },
+        {
+          "name": "DOE Helpdesk",
+          "email": "doesection508coordinator@hq.doe.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Shannon Howard",
+          "email": "shannon.howard@hhs.gov",
+          "phone": null
+        },
+        {
+          "name": "HHS Helpdesk",
+          "email": "508helpdesk@hhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "Administration for Children and Families (ACF)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Janean Chambers",
+          "email": "jchambers@acf.hhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "Administration for Community Living (ACL)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "ACL Helpdesk",
+          "email": "accessibility@acl.hhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "Agency for Healthcare Research and Quality (AHRQ)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Tim Erny",
+          "email": "ahrqsection508@ahrq.hhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "Centers For Disease Control and Prevention (CDC)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Mark Urban",
+          "email": "fka2@cdc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "Centers for Medicare and Medicaid Services (CMS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Aaron Allen",
+          "email": "aaron.allen@cms.hhs.gov",
+          "phone": null
+        },
+        {
+          "name": "Stacey Holden (Deputy)",
+          "email": "stacey.holden@cms.hhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "Food and Drug Administration (FDA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Heather Chafin",
+          "email": "heather.chafin@fda.hhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "Health Resources and Services Administration (HRSA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Frances Nguyen",
+          "email": "tnguyen@hrsa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "Indian Health Service (IHS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Kevin Fulbright",
+          "email": "kevin.fulbright@ihs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Antonio Haileselassie",
+          "email": "antonio.haileselassie@nih.gov",
+          "phone": null
+        },
+        {
+          "name": "Jason Hitchcock (Deputy)",
+          "email": "jason.hitchcock@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "Center for Information Technology (CIT)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Nischal Mangu",
+          "email": "nischal.mangu@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "Center for Scientific Review (CSR)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Patricia Young",
+          "email": "youngp@csr.nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "Clinical Center (CC)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Cindy Fisher",
+          "email": "cindy.fisher@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "John E Fogarty International Center (FIC)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Alisa McCullar",
+          "email": "mccullaa@mail.nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Center for Advancing Translational Sciences (NCATS)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Sam Michael",
+          "email": "michaelsg@mail.nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Center for Complementary and Integrative Health (NCCIH)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Irene Liu",
+          "email": "irene.liu@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Eye Institute (NEI)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Lesley Earl",
+          "email": "lesley.earl@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Heart Lung and Blood Institute (NHLBI)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Carmen Davis",
+          "email": "carmen.davis@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Human Genome Research Institute (NHGRI)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Britny Kish",
+          "email": "britny.kish@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Inst of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Dave Johnson",
+          "email": "dave.johnson2@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute of Allergy and Infectious Diseases (NIAID)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Tori Garten",
+          "email": "tori.garten@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute of Biomedical Imaging and Bioengineering (NIBIB)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Roberta Albert",
+          "email": "roberta.albert@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute of Child Health and Human Development (NICHD)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Li Huang",
+          "email": "huangli@mail.nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute of Dental and Craniofacial Research (NIDCR)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Jessica Henry",
+          "email": "jessica.henry@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Angela Thomas",
+          "email": "angela.thomas@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute of Environmental Health Sciences (NIEHS)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Cheryl Thompson",
+          "email": "thompsonc2@niehs.nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute of General Medical Sciences (NIGMS)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Jennifer Sizemore",
+          "email": "jennifer.sizemore@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute of Mental Health (NIMH)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "James Petersen",
+          "email": "jpeters2@mail.nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute of Neurological Disorders and Stroke (NINDS)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Cesar Garzon",
+          "email": "cesar.garzon@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute of Nursing Research (NINR)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Andrew Liang",
+          "email": "andrew.liang@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute on Aging (NIA )",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Kelly Ohaver",
+          "email": "kelly.ohaver@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute on Alcohol Abuse and Alcoholism (NIAAA)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Toni Calzone",
+          "email": "tcalzone@dicbr.niaaa.nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute on Deafness and Communication Disorders (NIDCD)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Heidi Rosvold-Brenholtz",
+          "email": "heidi.rosvold-brenholtz@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute on Drug Abuse (NIDA)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Mark Fleming",
+          "email": "mfleming@nida.nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Institute on Minority Health and Health Disparities (NIMHD)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Edgar Dews",
+          "email": "edgar.dews@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "National Library of Medicine (NLM)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Rex Shuler",
+          "email": "shulerr@mail.nlm.nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "Office of Research Facilities Development and Operations (ORF)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Susan Permu",
+          "email": "permuts@mail.nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "Office of Research Services (ORS)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Ida Shuler",
+          "email": "ida.yengoyan@nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "National Institutes of Health (NIH)",
+      "subcomponent": "Office of the Director (OD)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Christina Simmons",
+          "email": "simmonsc@od.nih.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "Office of the Secretary Division",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "HHS Helpdesk",
+          "email": "508helpdesk@hhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Health and Human Services (HHS)",
+      "component": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Alex Karakcheyev",
+          "email": "olexiy.karakcheyev@samhsa.hhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Brandon Pace",
+          "email": "brandon.pace@hq.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "Countering Weapons of Mass Destruction (CWMD)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Leslie Porter",
+          "email": "leslie.porter@hq.dhs.gov",
+          "phone": null
+        },
+        {
+          "name": "Dester Njike",
+          "email": "dester.njike@associates.hq.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "Customs and Border Protection (CBP)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Paquiry Loganathan",
+          "email": "paquiry.loganathan@cbp.dhs.gov",
+          "phone": null
+        },
+        {
+          "name": "Amanda C. Haney (Deputy)",
+          "email": "amanda.c.haney@cbp.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "Cybersecurity & Infrastructure Security Agency (CISA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Matthew “Matti” Ricciardi",
+          "email": "matthew.ricciardi@cisa.dhs.gov",
+          "phone": null
+        },
+        {
+          "name": "Steve Samuelian",
+          "email": "steve.samuelian@cisa.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "Federal Emergency Management Agency (FEMA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Janice Fenlason",
+          "email": "janice.fenlason@fema.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "Federal Emergency Management Agency (FEMA)",
+      "subcomponent": "FEMA Emergency Management Institute (EMI)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Thonya Cook",
+          "email": "thonya.cook@fema.dhs.gov",
+          "phone": null
+        },
+        {
+          "name": "Justin Peterson (Deputy)",
+          "email": "justin.peterson@fema.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "Federal Emergency Management Agency (FEMA)",
+      "subcomponent": "FEMA U.S. Fire Administration (USFA)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": []
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "Federal Emergency Management Agency (FEMA)",
+      "subcomponent": "Federal Law Enforcement Training Center (FLETC)",
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Gina Chipman",
+          "email": "gina.chipman@fletc.dhs.gov",
+          "phone": null
+        },
+        {
+          "name": "Nichole Adair",
+          "email": "nichole.adair@fletc.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "Headquarters (HQ)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Brandon Pace",
+          "email": "brandon.pace@hq.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "Immigration and Customs Enforcement (ICE)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Arva Parker",
+          "email": "arva.parker@ice.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "Office of Biometric Identity Management (OBIM)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Michael Yaich",
+          "email": "michael.yaich@hq.dhs.gov",
+          "phone": null
+        },
+        {
+          "name": "Laura A. Hoffman (Deputy)",
+          "email": "laura.a.hoffman@associates.obim.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "Office of the Inspector General (OIG)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Robert Fritzen",
+          "email": "robert.fritzen@oig.dhs.gov",
+          "phone": null
+        },
+        {
+          "name": "Mani Mani (Deputy)",
+          "email": "mani.mani@oig.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "Science and Technology Directorate (S&T)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Heather Erhuanga",
+          "email": "heather.erhuanga@hq.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "Transportation Security Administration (TSA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Thomas Lockley",
+          "email": "thomas.lockley@tsa.dhs.gov",
+          "phone": null
+        },
+        {
+          "name": "Elliot Hoang (Deputy)",
+          "email": "elliott.hoang@tsa.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "U.S. Citizenship and Immigration Services (USCIS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Kenneth S. Moser",
+          "email": "kenneth.s.moser@uscis.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "U.S. Coast Guard (USCG)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Eleanor E. Thompson",
+          "email": "eleanor.e.thompson@uscg.mil",
+          "phone": null
+        },
+        {
+          "name": "Terry A. Bell",
+          "email": "terry.a.bell@uscg.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security (DHS)",
+      "component": "U.S. Secret Service (USSS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Leonard Dorrian",
+          "email": "leonard.dorrian@usss.dhs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Housing and Urban Development (HUD)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "GiaVonni Hester",
+          "email": "giavonni.p.hester@hud.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Interior (DOI)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Sid Sharma",
+          "email": "siddhartha_sharma@ios.doi.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Interior (DOI)",
+      "component": "Bureau of Indian Affairs (BIA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "George Morris",
+          "email": "george.morris@bia.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Interior (DOI)",
+      "component": "Bureau of Land Management (BLM)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Brianna Huerta",
+          "email": "bhuerta@blm.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Interior (DOI)",
+      "component": "Bureau of Ocean Energy Management (BOEM)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Dr. Peter Joseph Campion",
+          "email": "peter.campion@bsee.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Interior (DOI)",
+      "component": "Bureau of Reclamation (BR)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Lori Pelech",
+          "email": "lpelech@usbr.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Interior (DOI)",
+      "component": "Bureau of Safety and Environmental Enforcement (BSEE)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Dr. Peter Joseph Campion",
+          "email": "peter.campion@bsee.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Interior (DOI)",
+      "component": "Bureau of Trust Funds Administration (BTFA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Neal Herbert",
+          "email": "neal_herbert@btfa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Interior (DOI)",
+      "component": "National Park Service (NPS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Alex Lindeman",
+          "email": "alex_lindeman@nps.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Interior (DOI)",
+      "component": "Office of the Inspector General (OIG)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Rashee Nelson",
+          "email": "rashee_nelson@doioig.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Interior (DOI)",
+      "component": "Office of the Solicitor (OS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Sid Sharma",
+          "email": "siddhartha_sharma@ios.doi.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Interior (DOI)",
+      "component": "Office of Surface Mining Reclamation and Enforcement (OSMRE)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Sid Sharma",
+          "email": "siddhartha_sharma@ios.doi.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Interior (DOI)",
+      "component": "U.S. Fish and Wildlife Service (FWS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Keon Sheffield",
+          "email": "keon_sheffield@fws.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Interior (DOI)",
+      "component": "U.S. Geological Survey (USGS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Tracy Jolivette",
+          "email": "tjolivette@usgs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Dwayne Spriggs",
+          "email": "Section508ProgramManager@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Antitrust Division",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Elizabeth (Beth) Gundermann",
+          "email": "beth.gundermann@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Richard Hess",
+          "email": "richard.hess2@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Bureau of Alcohol, Tobacco, Firearms, & Explosives",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Thomas Stewart",
+          "email": "thomas.stewart@atf.gov",
+          "phone": null
+        },
+        {
+          "name": "Jennifer K. Cantilena",
+          "email": "jennifer.k.cantilena2@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Civil Division",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Benjamin Jones",
+          "email": "benjamin.jones@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Civil Rights Division",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Randy Abramson",
+          "email": "randy.abramson@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Imran Lodi (Deputy)",
+          "email": "imran.lodi@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Community Oriented Policing Services",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Donte Turner",
+          "email": "donte.turner@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Criminal Division",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Carlos Cruz",
+          "email": "carlos.cruz3@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Drug Enforcement Administration (DEA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Thomas (Tom) Schlauch",
+          "email": "thomas.e.schlauch@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Lisa Walbert",
+          "email": "lisa.k.walbert@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Environment & Natural Resources Division",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Joseph Groves",
+          "email": "joseph.groves@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Executive Office for Immigration Review (EOIR)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Andrew Leftwich",
+          "email": "andrew.leftwich@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "David Fruehwald (Deputy)",
+          "email": "david.fruehwald@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Executive Office for United States Attorneys",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Cristina Burbach",
+          "email": "cristina.burbach@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Executive Office for United States Trustees",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Alisha Hurtado",
+          "email": "alisha.hurtado@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Federal Bureau of Investigation (FBI)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "FBI Accessibility Program Office (APO)",
+          "email": "hq-div00-ocio-apo@fbi.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Federal Bureau of Prisons",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Riyaz Refai",
+          "email": "rrefai@bop.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Foreign Claims Settlement Commission",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Justice Management Division",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "National Fraud Enforcement Division",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "William C. Warren, Jr",
+          "email": "william.c.warren.jr@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "National Institute of Corrections",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Donna Ledbetter",
+          "email": "donna.ledbetter@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "National Security Division",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Nilesh Bhut",
+          "email": "nilesh.bhut@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office of Information Policy",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office of Justice Programs",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Bruce W. Whitlock",
+          "email": "bruce.w.whitlock@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office of Legal Policy",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office of Legislative Affairs",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office of Pardon Attorney",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office of Professional Responsibility",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office of Public Affairs",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office of Solicitor General",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office of the Associate Attorney General",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office of the Attorney General",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office of the Deputy Attorney General",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office of the Inspector General",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Maurice A. Jones",
+          "email": "maurice.a.jones@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office of Tribal Justice",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Office on Violence Against Women",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Tiyawna Duncan",
+          "email": "tiyawna.duncan@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Sybil Barksdale",
+          "email": "sybil.barksdale@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "Professional Responsibility Advisory Office",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "United States Marshals Service",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "James L. Brown",
+          "email": "james.brown9@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Dene James",
+          "email": "dene.james@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Justice (DOJ)",
+      "component": "United States Parole Commission",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pamela Harrion",
+          "email": "pamela.harrion@usdoj.gov",
+          "phone": null
+        },
+        {
+          "name": "Benjamin L. Schwarten",
+          "email": "benjamin.l.schwarten@usdoj.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Labor (DOL)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Eric W. Wright",
+          "email": "wright.eric.w@dol.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of State (USDS)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Melanie McIntyre Pote",
+          "email": "mcintyrepotems@state.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Transportation (DOT)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "LaVette Sydnor",
+          "email": "lavette.sydnor@dot.gov",
+          "phone": null
+        },
+        {
+          "name": "Kellie Korzen (Deputy)",
+          "email": "kellie.korzen@dot.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Transportation (DOT)",
+      "component": "Bureau of Transportation Statistics (BTS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Simona Jones",
+          "email": "simona.jones@dot.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Transportation (DOT)",
+      "component": "Federal Highway Administration (FHWA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Stephanie Jackson",
+          "email": "stephanie.jackson@dot.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Transportation (DOT)",
+      "component": "Federal Aviation Administration (FAA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Lisa L. Edwards",
+          "email": "lisa.l.edwards@faa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Transportation (DOT)",
+      "component": "Federal Motor Carrier Safety Administration (FMCSA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Cicely Waters",
+          "email": "cicely.waters@dot.gov",
+          "phone": null
+        },
+        {
+          "name": "Justine Chen (Deputy)",
+          "email": "justine.chen@dot.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Transportation (DOT)",
+      "component": "Federal Railroad Administration (FRA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Yoseph Kelile",
+          "email": "yoseph.kelile@dot.gov",
+          "phone": null
+        },
+        {
+          "name": "Hugo Vives (Deputy)",
+          "email": "hugo.vives@dot.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Transportation (DOT)",
+      "component": "Federal Transit Administration (FTA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Kimberly Castillo",
+          "email": "kimberly.castillo@dot.gov",
+          "phone": null
+        },
+        {
+          "name": "Dr. Alfonz Ruth",
+          "email": "alfonz.ruth@dot.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Transportation (DOT)",
+      "component": "Maritime Administration (MARAD)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "La Tisa T. Wilder",
+          "email": "latisa.wilder@dot.gov",
+          "phone": null
+        },
+        {
+          "name": "Bob Ellington (Deputy)",
+          "email": "bob.ellington@dot.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Transportation (DOT)",
+      "component": "National Highway Traffic Safety Administration (NHTSA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Brandon Gobel",
+          "email": "brandon.gobel@dot.gov",
+          "phone": null
+        },
+        {
+          "name": "Purushottam “Puru” Subedi (Deputy)",
+          "email": "p.subedi@dot.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Transportation (DOT)",
+      "component": "Office of Inspector General (OIG)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Audre E. Azoulas",
+          "email": "audre.azuolas@oig.dot.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Transportation (DOT)",
+      "component": "Pipeline and Hazardous Materials Safety Administration (PHMSA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "T’Mia Raynor",
+          "email": "t'mia.raynor@dot.gov",
+          "phone": null,
+          "emailAsDisplayed": "t’mia.raynor@dot.gov"
+        },
+        {
+          "name": "Paul Mounkhaty (Deputy)",
+          "email": "paul.mounkhaty@dot.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Transportation (DOT)",
+      "component": "Volpe National Transportation Systems Center (VOLPE)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Stephanie Chase",
+          "email": "stephanie.chase@dot.gov",
+          "phone": null
+        },
+        {
+          "name": "Eliot Sutler (Deputy)",
+          "email": "eliot.sutler@dot.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Treasury (USDT)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Nicolaos “Nick” Totten",
+          "email": "nicolaos.totten@treasury.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Treasury (USDT)",
+      "component": "Alcohol and Tobacco Tax and Trade Bureau (TTB)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Cat Lambson",
+          "email": "catherine.lambson@ttb.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Treasury (USDT)",
+      "component": "Bureau of Engraving and Printing",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Jay Little",
+          "email": "jay.little@bep.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Treasury (USDT)",
+      "component": "Bureau of the Fiscal Service",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Elizabeth Burke",
+          "email": "lee.burke@fiscal.treasury.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Treasury (USDT)",
+      "component": "Community Development Financial Institution (CDFI) Fund",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Michael Jones",
+          "email": "jonesmw@cdfi.treas.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Treasury (USDT)",
+      "component": "Financial Crimes Enforcement Network (FINCEN)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Joseph Harmon",
+          "email": "joseph.harmon@fincen.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Treasury (USDT)",
+      "component": "Internal Revenue Service (IRS)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Jarrad J. Davenport",
+          "email": "jarrad.j.davenport@irs.gov",
+          "phone": null
+        },
+        {
+          "name": "Pamela L. Shavers",
+          "email": "pamela.l.shavers@irs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Treasury (USDT)",
+      "component": "Office of the Inspector General",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Tracy George",
+          "email": "georget@oig.treas.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Treasury (USDT)",
+      "component": "Office of the Comptroller of the Currency (OCC)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Rebekah Meservy",
+          "email": "rebekah.meservy@occ.treas.gov",
+          "phone": null
+        },
+        {
+          "name": "IT Accessibility (Section 508) Team",
+          "email": "508program@occ.treas.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Treasury (USDT)",
+      "component": "Treasury Inspector General for Tax Administration (TIGTA)",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Jesus Cantu",
+          "email": "section508@tigta.treas.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of the Treasury (USDT)",
+      "component": "U.S. Mint",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "James Proctor",
+          "email": "james.proctor@usmint.treas.gov",
+          "phone": null
+        },
+        {
+          "name": "Rodney Dunwoody (Deputy)",
+          "email": "rodney.dunwoody@usmint.treas.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Department of Veterans Affairs (VA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Chet Frith",
+          "email": "chet.frith@va.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Environmental Protection Agency (EPA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Sarah Sorathia",
+          "email": "sorathia.sarah@epa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "General Services Administration (GSA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Mohammad Islam",
+          "email": "mohammad.islam@gsa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "National Aeronautics and Space Administration (NASA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Allison Thompson (Acting)",
+          "email": "allison.thompson@nasa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "National Aeronautics and Space Administration (NASA)",
+      "component": "Goddard Space Flight Center",
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Betsy Sirk",
+          "email": "betsy.sirk-1@nasa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "National Science Foundation (NSF)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Katherine Otts",
+          "email": "kotts@nsf.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Nuclear Regulatory Commission (NRC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "John Beatty",
+          "email": "john.beatty@nrc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Office of Personnel Management (OPM)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": []
+    },
+    {
+      "name": "Small Business Administration (SBA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Janice MacLean",
+          "email": "janice.maclean@sba.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Social Security Administration (SSA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Departments and CFO Act Agencies",
+      "managers": [
+        {
+          "name": "Pierce Crowell",
+          "email": "pierce.crowell@ssa.gov",
+          "phone": null
+        },
+        {
+          "name": "Amanda Miller (Deputy)",
+          "email": "amanda.miller@ssa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Administrative Conference of the United States (ACUS)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Shawne C. McGibbon",
+          "email": "smcgibbon@acus.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Advisory Council on Historic Preservation (ACHP)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Rezaur Rahman",
+          "email": "rrahman@achp.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "American Battle Monuments Commission (ABMC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Jennifer Li",
+          "email": "lij@abmc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Barry Goldwater Scholarship and Excellence in Education Foundation",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Shellby Padgett",
+          "email": "goldwaterao@goldwaterscholarship.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Bonneville Power Administration (BPA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Jenna A. Ramos",
+          "email": "jaramos@bpa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Central Intelligence Agency (CIA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Richard W.",
+          "email": "section_508@uce.cia.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Commission of Fine Arts (CFA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Carlton Hart (Acting)",
+          "email": "chart@cfa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Committee for Purchase from People Who Are Blind or Severely Disabled (CPPBSD)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Edward Yang",
+          "email": "eyang@abilityone.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Commodity Futures Trading Commission (CFTC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Kate Cerveny",
+          "email": "kcerveny@cftc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Consumer Financial Protection Bureau (CFPB)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Jennifer Horan",
+          "email": "jennifer.horan@cfpb.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Consumer Product Safety Commission (CPSC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Bertie Hamilton",
+          "email": "bhamilton@cpsc.gov",
+          "phone": null
+        },
+        {
+          "name": "Bryan Burnett (Deputy)",
+          "email": "bburnett@cpsc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Corporation for National & Community Service (CNS)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Otis Winters",
+          "email": "owinters@cns.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Court Services and Offender Supervision Agency for the District (CSOSA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Michael Vasquez",
+          "email": "michael.vasquez@csosa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Defense Nuclear Facilities Safety Board (NDFSB)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Jeremy Bingham",
+          "email": "jeremyb@dnfsb.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Election Assistance Commission (EAC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "William Jackson",
+          "email": "bjackson@eac.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Equal Employment Opportunity Commission (EEOC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Catherine Archambeault",
+          "email": "catherine.archambeault@eeoc.gov",
+          "phone": null
+        },
+        {
+          "name": "Sivaram (Siva) Ghorakavi (Deputy)",
+          "email": "sivaram.ghorakavi@eeoc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Farm Credit Administration (FCA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Nicole Jacobs",
+          "email": "jacobsn@fca.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Farm Credit System Insurance Corporation (FCSIC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Nicole Jacobs",
+          "email": "jacobsn@fca.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Federal Communication Commission (FCC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Chris Dizon",
+          "email": "chris.dizon@fcc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation (FDIC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Brooke Aiken",
+          "email": "braiken@fdic.gov",
+          "phone": null
+        },
+        {
+          "name": "Ryan Benson (Deputy)",
+          "email": "rybenson@fdic.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Federal Election Commission (FEC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Patcharee “Pat” Phongsvirajati",
+          "email": "pphongsvirajati@fec.gov",
+          "phone": null
+        },
+        {
+          "name": "FEC Helpdesk",
+          "email": "508coordinator@fec.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Federal Energy Regulatory Commission (FERC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Juno Park",
+          "email": "jun.park@ferc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Federal Housing Finance Agency (FHFA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Warren Hammonds",
+          "email": "warren.hammonds@fhfa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Federal Labor Relations Authority (FLRA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Dave Fontaine",
+          "email": "dfontaine@flra.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Federal Maritime Commission (FMC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Lucille Marvin",
+          "email": "omd@fmc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Federal Mediation and Conciliation Service (FMCS)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Christine Horowitz",
+          "email": "chorowitz@fmcs.gov",
+          "phone": null
+        },
+        {
+          "name": "FMCS Helpdesk",
+          "email": "fmcs508@fmcs.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Federal Mine Safety & Health Review Commission (FMSHRC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Theodosia Villatoro-Sorto",
+          "email": "tvillatoro-sorto@fmshrc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Federal Reserve Board of Governors (FRB)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Melissa Lasbury",
+          "email": "melissa.p.lasbury@frb.gov",
+          "phone": null
+        },
+        {
+          "name": "Randal Duchesneau",
+          "email": "randall.duchesneau@frb.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Federal Retirement Thrift Investment Board (FRTIB)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "FRTIB Section 508 Team",
+          "email": "section508@frtib.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Federal Trade Commission (FTC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Trevor Beierschmitt",
+          "email": "tbeierschmitt@ftc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Gulf Coast Ecosystem Restoration Council (GCERC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Jeremy Roseboom",
+          "email": "jeremy.roseboom@restorethegulf.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Institute of Museum and Library Services (IMLS)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Tekquell Watson",
+          "email": "twatson@imls.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Inter-American Foundation (IAF)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Duleep Sali",
+          "email": "dsahi@iaf.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Merit Systems Protection Board (MSPB)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Dennis Oden",
+          "email": "dennis.oden@mspb.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Morris K. Udall and Stewart L. Udall Foundation (MUSUF)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Jerry Carter",
+          "email": "carter@udall.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "National Archives & Records Administration (NARA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Farooq Khan",
+          "email": "farooq.khan1@nara.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "National Capital Planning Commission (NCPC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Kim Grace",
+          "email": "grace.kim@ncpc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "National Credit Union Administration (NCUA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Nickol Davenport",
+          "email": "edavenport@ncua.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "National Endowment for the Arts (NEA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Joseph Galicia",
+          "email": "galiciaj@arts.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "National Endowment for the Humanities (NEH)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Ageliki Key",
+          "email": "akey@neh.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "National Labor Relations Board (NLRB)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Andrew Martin",
+          "email": "andrew.martin@nlrb.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "National Mediation Board (NMB)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Solomon Gebretensai",
+          "email": "solomon.gebretensai@nmb.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "National Security Agency (NSA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "L. Tanai White",
+          "email": "ltwhite@nsa.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Northern Border Regional Commission (NBRC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Rich Grogan",
+          "email": "rgrogan@nbrc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Nuclear Waste Technical Review Board (NWTRB)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Jayson Bright",
+          "email": "bright@nwtrb.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Occupational Safety and Health Review Commission (OSHRC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Angela Bridges",
+          "email": "abridges@oshrc.gov",
+          "phone": null
+        },
+        {
+          "name": "Johnathan Whitton",
+          "email": "jwhitton@oshrc.gov",
+          "phone": null
+        },
+        {
+          "name": "Angela Tyler",
+          "email": "atyler@oshrc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Office of Government Ethics (OGE)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Ty Cooper",
+          "email": "jtcooper@oge.gov",
+          "phone": null
+        },
+        {
+          "name": "Mohamed Zaky (Deputy)",
+          "email": "mzaky@oge.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Office of Navajo and Hopi Indian Relocation (ONHIR)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Diane Pratte",
+          "email": "dpratte@onhir.gov",
+          "phone": null
+        },
+        {
+          "name": "June Beyal (Deputy)",
+          "email": "jbeyal@onhir.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Office of Special Counsel (OSC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Shola Kalejaiye",
+          "email": "skalejaiye@osc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Peace Corps (PC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Karen Barbuschak",
+          "email": "kbarbuschak@peacecorps.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Pension Benefit Guaranty Corporation (PBGC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Angela Watkins",
+          "email": "watkins.angela@pbgc.gov",
+          "phone": null
+        },
+        {
+          "name": "Marcelle Salley-Owens (Deputy)",
+          "email": "salley-owens.marcelle@pbgc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Postal Regulatory Commission (PRC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Stephen Perry",
+          "email": "stephen.perry@prc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Presidio Trust (PT)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Tres Shepard",
+          "email": "tshepard@presidiotrust.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Privacy and Civil Liberties Oversight Board (PCLOB)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Richard Morgan",
+          "email": "richard.morgan@pclob.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Railroad Retirement Board (RRB)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Robert LaBerry",
+          "email": "robert.laberry@rrb.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Securities and Exchange Commission (SEC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Sharvon Jones",
+          "email": "jonessh@sec.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Selective Service System (SSS)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Shawn Jackson",
+          "email": "sjackson@sss.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Social Security Advisory Board (SSAB)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "SSAB Helpdesk",
+          "email": "ssab@ssab.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Surface Transportation Board (STB)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Philip Maynard",
+          "email": "philip.maynard@stb.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "Tennessee Valley Authority (TVA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Gregory G. Jackson",
+          "email": "ggjackson@tva.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "U.S. Access Board (USAB)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Mannan Dasti",
+          "email": "dasti@access-board.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "U.S. Agency for Global Media (USAGM)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "J.R. Reeves",
+          "email": "jreeves@usagm.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "U.S. Army Corps of Engineers (USACE)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Kelly Linick",
+          "email": "kelly.a.linick@usace.army.mil",
+          "phone": null
+        },
+        {
+          "name": "Sophia Epkey",
+          "email": "sophia.m.epkey@usace.army.mil",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "U.S. Commission on Civil Rights (USCCR)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Michele Ramey",
+          "email": "section508@usccr.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "U.S. International Development Finance Corporation (DFC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Pramila Adhikari",
+          "email": "pramila.adhikari@dfc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "U.S. International Trade Commission (USITC)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Terri Barnes",
+          "email": "terri.barnes@usitc.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "U.S. Postal Service (USPS)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Nadereh Nasir",
+          "email": "nadereh.nasir@usps.gov",
+          "phone": null
+        }
+      ]
+    },
+    {
+      "name": "U.S. Trade and Development Agency (USTDA)",
+      "component": null,
+      "subcomponent": null,
+      "group": "Small and Independent Agencies",
+      "managers": [
+        {
+          "name": "Clifford Cummins",
+          "email": "ccummins@ustda.gov",
+          "phone": null
+        }
+      ]
+    }
+  ]
+}
