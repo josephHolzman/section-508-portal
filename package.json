@@ -7,10 +7,11 @@
   "type": "module",
   "scripts": {
     "uswds:init": "gulp --gulpfile gulpfile.cjs init",
+    "uswds:assets": "gulp --gulpfile gulpfile.cjs copyAssets",
     "uswds:css": "gulp --gulpfile gulpfile.cjs compile",
     "uswds:watch": "gulp --gulpfile gulpfile.cjs watch",
     "dev": "npm run uswds:css && (npm run uswds:watch & vite)",
-    "build": "npm run uswds:css && tsc --noEmit && vite build",
+    "build": "npm run uswds:assets && npm run uswds:css && tsc --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"

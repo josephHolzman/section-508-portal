@@ -12,6 +12,8 @@ uswds.paths.dist.img = "./public/uswds/img";
 uswds.paths.dist.js = "./public/uswds/js";
 uswds.paths.dist.components = "./public/uswds/components";
 
+// Fonts, images, JS, and web components only (not theme Sass — that lives in git).
+exports.copyAssets = uswds.copyAssets;
 exports.init = uswds.init;
 exports.compile = uswds.compile;
 exports.watch = uswds.watch;

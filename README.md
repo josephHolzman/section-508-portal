@@ -8,7 +8,7 @@ Unofficial concept. A browser-only tool that helps someone who hit an accessibil
 npm install
 npm run dev        # compiles the USWDS theme, watches the Sass, starts Vite
 npm test           # unit and data tests
-npm run build      # typecheck + production build with the Content-Security-Policy
+npm run build      # copies USWDS fonts/images, typecheck, production build with CSP
 npm run preview    # serve the build; this is where the CSP applies
 ```
 
